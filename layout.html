@@ -1,0 +1,523 @@
+<style>
+    #fab {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: red;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: context-menu;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .flex-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #main-layout {
+        width: 300px;
+        height: 500px;
+        position: fixed;
+        bottom: 85px;
+        right: 20px;
+        background-color: white;
+        padding: 8px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    #quest {
+        height: 100%;
+    }
+
+    #content {
+        height: 284px;
+        padding: 4px;
+    }
+
+    #terms-content {
+        height: 397px;
+    }
+
+    .selector-container {
+        padding: 4px;
+        height: 189px;
+        overflow-y: scroll;
+    }
+
+    div.actions {
+        margin-top: 4px;
+        height: 27px;
+    }
+
+    .float-right {
+        float: right;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+    #log {
+        height: 184px;
+        margin-top: 8px;
+        padding: 4px;
+        background: #444444;
+        color: white;
+        font-family: monospace;
+        border: 1px solid black;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+</style>
+
+<div id="main-layout">
+    <div id="quest" class="flex-center">
+        <h5>Đăng nhập đi rồi tính.</h5>
+    </div>
+    <div id="user">
+        <div id="terms">
+            <h3>Note</h3>
+            <div id="terms-content">
+                some note
+            </div>
+            <div class="actions">
+                <button id="bAccept" type="button" class="btn btn-success float-right">
+                    OK
+                </button>
+                <button id="bDecline" type="button" class="btn btn-danger float-left">
+                    Không chịu :(
+                </button>
+            </div>
+        </div>
+        <div id="functional">
+            <div id="content">
+                <div id="step1">
+                    <h3>Chọn môn</h3>
+                    <div class="selector-container">
+                        <ul id="m-selector" class="list-group">
+                        </ul>
+                    </div>
+                    <div class="actions">
+                        <button id="bNext" type="button" class="btn btn-primary float-right">
+                            Tiếp
+                        </button>
+                    </div>
+                </div>
+                <div id="step2" style="display: none">
+                    <h3>Chọn buổi</h3>
+                    <div id="b-selector" class="selector-container">
+                    </div>
+                    <div class="actions">
+                        <button id="bPre" type="button" class="btn btn-primary float-left">
+                            Trước
+                        </button>
+                        <button id="bFinish" type="button" class="btn btn-primary float-right">
+                            Đăng kí
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="log"></div>
+        </div>
+    </div>
+</div>
+
+<div id="fab" class="flex-center">
+    +
+</div>
+
+<!-- Functions -->
+<script>
+    function GetDanhSachMon(userData) {
+        log("");
+        log("[DSM] sending request...");
+        $.ajax({
+            type: 'GET',
+            url: '/dangkingoaikehoach?StudyProgramID=' + userData['CTDaoTao_ID'],
+            dataType: 'html',
+            async: false,
+            success: function (html) {
+                var dsm = $(html).find('#DanhSachLop table table tbody tr');
+                log("[DSM] received - length:" + dsm.length);
+                var dsm_arr = [];
+                for (i = 0; i < dsm.length; i++) {
+                    log('[DSM] processing ' + i + '/' + dsm.length);
+                    dsm_arr[i] = {};
+                    var scriptTextParts = dsm[i].querySelector('td:last-child a').getAttribute('href').split(
+                        "'");
+                    dsm_arr[i]['CurriculumID'] = scriptTextParts[3];;
+                    dsm_arr[i]['StudyUnitID'] = scriptTextParts[1];
+                    dsm_arr[i]['tenLop'] = dsm[i].querySelector('td:nth-of-type(3)').textContent;
+                    dsm_arr[i]['stc'] = dsm[i].querySelector('td:nth-of-type(4)').textContent;
+                }
+                userData['DSMon'] = dsm_arr;
+                log("[DSM] finished !");
+            }
+        });
+    };
+
+    function GetDanhSachBuoi(userData) {
+        log("");
+        userData['DSBuoi'] = [];
+        for (j = 0; j < userData['DSMon'].length; j++) {
+            log("[DSB  " + j + '/' + userData['DSMon'].length + "] sending request... ");
+            var dsbpm = [];
+            $.ajax({
+                type: 'GET',
+                url: '/DangKiNgoaiKeHoach/DanhSachLopHocPhan/' + userData['DSMon'][j]['StudyUnitID'] +
+                    '?CurriculumID=' + userData['DSMon'][j]['CurriculumID'],
+                async: false,
+                dataType: 'html',
+                success: function (data) {
+                    var dsb = $(data).find('tr.trhover');
+                    log("[DSB  " + j + '/' + userData['DSMon'].length + "] received - length:" + dsb.length);
+                    var dsb_arr = [];
+                    for (i = 0; i < dsb.length; i++) {
+                        log("[DSB  " + j + '/' + userData['DSMon'].length + "] processing " + i + '/' + dsb
+                            .length);
+                        dsb_arr[i] = {};
+                        dsb_arr[i]['BuoiID'] = dsb[i].querySelector('td:nth-of-type(2)').textContent;
+                        dsb_arr[i]['HideID'] = dsb[i].querySelector('td:nth-of-type(4) input').getAttribute(
+                            'id');
+                        dsb_arr[i]['SiSo'] = dsb[i].querySelector('td:nth-of-type(6)').textContent;
+                        dsb_arr[i]['GiaoVien'] = dsb[i].querySelector('td:nth-of-type(8)').textContent;
+                        var buoiStrParts = dsb[i].querySelector('td:nth-of-type(9) div').textContent.split(
+                            ',');
+                        var regex = /(\d+)/g;
+                        if (buoiStrParts == null || buoiStrParts.length < 2) {
+                            dsb_arr[i]['BuoiThu'] = 0;
+                            dsb_arr[i]['TietBatDau'] = 0;
+                            dsb_arr[i]['TietKetThuc'] = 0;
+                        } else {
+                            dsb_arr[i]['BuoiThu'] = buoiStrParts[0].match(regex)[0];
+                            dsb_arr[i]['TietBatDau'] = buoiStrParts[1].match(regex)[0];
+                            dsb_arr[i]['TietKetThuc'] = buoiStrParts[1].match(regex)[1];
+                        }
+                    }
+                    userData['DSBuoi'][j] = dsb_arr;
+                }
+            });
+        }
+        log("[DSB] finished !");
+    };
+
+    function dkb(CurriculumID, StudyUnitID, HideID, takeNumber) {
+        log('['+CurriculumID+'] #'+takeNumber+' - sending request...') ;
+        $.ajax({
+            type: 'GET',
+            url: '/DangKiHocPhan?StudyUnitID=' + StudyUnitID + '&CurriculumID=' + CurriculumID + '&Hide=' + HideID,
+            async: true,
+            dataType: 'html',
+            success: function (data) {
+                if (data.includes('thành công')) {
+                    log('['+CurriculumID+'] #'+takeNumber+' - Đăng kí thành công');
+                    return;
+                }
+                else {
+                    log('['+CurriculumID+'] #'+takeNumber+' - Err: '+data);
+                    setTimeout(function() {
+                        dkb(CurriculumID, StudyUnitID, HideID, (takeNumber+1));
+                    },0);
+                    return;
+                }
+            }
+        });
+    };
+
+    function dkmh(selectedBuois) {
+        log('Bắt đầu đăng kí');
+        for (var i=0; i< selectedBuois.length; i++) {
+            var p = selectedBuois[i].split(',');
+            var CurriculumID = p[0];
+            var StudyUnitID = p[1];
+            var HideID = p[2];
+            setTimeout(function () {
+                log('['+CurriculumID+'] started')
+                dkb(CurriculumID, StudyUnitID, HideID, 0);
+            }, 0);    
+        }
+    }
+
+    function renderStep1(userData) {
+        var mSelector = document.getElementById('m-selector');
+        for (var i=0; i<userData.DSMon.length; i++) {
+            var mon = userData.DSMon[i];
+            var item = document.createElement('li');
+            item.setAttribute('class', 'list-group-item');
+            item.setAttribute('value', mon.CurriculumID+','+mon.StudyUnitID);
+            item.innerText = mon.tenLop + ' (' + mon.stc + 'tc)';
+            item.addEventListener('click',function() {
+                if (this.getAttribute('class') == 'list-group-item active')
+                    this.setAttribute('class','list-group-item');
+                else 
+                    this.setAttribute('class','list-group-item active');
+            });
+            mSelector.appendChild(item);
+        }
+    }
+    function renderStep2(userData) {
+        var sl2 = document.getElementById('b-selector');
+        sl2.innerHTML = '';
+        var selectedMItems = $('#m-selector > li.active');
+        var selectedMonIDs = [];
+        var selectedMonNames = [];
+        for (var i=0; i<selectedMItems.length; i++) {
+            selectedMonIDs.push(selectedMItems[i].getAttribute('value'));
+            selectedMonNames.push(selectedMItems[i].innerText);
+        }
+        for (var i=0; i<selectedMonIDs.length; i++) {
+            var form = document.createElement('div');
+            form.setAttribute('class','form-group');
+            form.innerHTML = '<label for="sl'+selectedMonIDs[i]+'">'+selectedMonNames[i]+':</label><select class="form-control bselector" id="sl'+selectedMonIDs[i]+'"></select>';
+            sl2.appendChild(form);
+            var sl = document.getElementById('sl'+selectedMonIDs[i]);
+            var CurriculumID = selectedMonIDs[i].split(',')[0];
+            for (var j=0; j<userData.DSBuoi[CurriculumID].length; j++) {
+                var buoi = userData.DSBuoi[CurriculumID][j];
+                var opt = document.createElement('option');
+                opt.setAttribute('value',selectedMonIDs[i]+','+buoi.HideID);  // -> CurriculumID,StudyUnitID,HideID
+                opt.innerText = 'Thứ '+buoi.BuoiThu+' - tiết '+buoi.TietBatDau+'-'+buoi.TietKetThuc + ' - GV: '+buoi.GiaoVien;
+                sl.appendChild(opt);
+            }
+        }
+    }
+</script>
+
+<script>
+    var mainLayout = document.getElementById('main-layout');
+    var mainLayoutVisible = true;
+
+    var logText = 'Log started!';
+    var logContaner = document.getElementById('log');
+    function log(str) {
+        logText += '\n';
+        logText += str;
+        // limit 50 lines
+        var c = 0;
+        for (var i=logText.length-1; i>0; i--) {
+            if (logText.charAt(i)=='\n') {
+                c++
+            }
+            if (c>50) {
+                logText = logText.substring(i, logText.length);
+                break;
+            }
+        }
+        logContaner.innerText = logText;
+        //logContaner.scrollTop = logContaner.scrollHeight;
+    }
+    function log2(str) {
+        logContaner.innerText = logText + '\n' + str;
+        logContaner.scrollTop = logContaner.scrollHeight;
+    }
+
+    // bat tat giao dien chinh
+    function toggleMainLayout() {
+        mainLayoutVisible = !mainLayoutVisible;
+        if (mainLayoutVisible) {
+            mainLayout.style.display = 'none';
+        } else {
+            mainLayout.style.display = 'block';
+        }
+    }
+    toggleMainLayout();
+
+    var fab = document.getElementById('fab');
+    fab.addEventListener('click', toggleMainLayout);
+
+    // detect login
+    var questPanel = document.getElementById('quest');
+    var userPanel = document.getElementById('user');
+    var isGuest = document.URL.includes('Login');
+    if (isGuest) {
+        questPanel.style.display = 'flex';
+        userPanel.style.display = 'none';
+    }
+    else {
+        questPanel.style.display = 'none';
+        userPanel.style.display = 'block';
+    }
+
+    // terms
+    var termPanel = document.getElementById('terms');
+    var functionalPanel = document.getElementById('functional');
+    // default display
+    termPanel.style.display = 'block';
+    functionalPanel.style.display = 'none';
+    
+    var bDecline = document.getElementById('bDecline');
+    var bAccept = document.getElementById('bAccept');
+    bDecline.addEventListener('click', function() {
+        mainLayout.style.display = 'none';
+    });
+    bAccept.addEventListener('click', function() {
+        termPanel.style.display = 'none';
+        functionalPanel.style.display = 'block';
+        log('');
+
+        // start functions
+        var result = {};
+        GetDanhSachMon(result);
+
+        // sample data
+        result.DSMon = [
+            {
+                "CurriculumID": "ADNT330580",
+                "StudyUnitID": "162ADNT330580",
+                "tenLop": "Mạng máy tính nâng cao",
+                "stc": "3"
+            },
+            {
+                "CurriculumID": "CAAL240180",
+                "StudyUnitID": "162CAAL240180",
+                "tenLop": "Kiến trúc máy tính và hợp ngữ",
+                "stc": "4"
+            },
+            {
+                "CurriculumID": "CLCO432779",
+                "StudyUnitID": "162CLCO432779",
+                "tenLop": "Điện toán đám mây",
+                "stc": "3"
+            }
+        ];
+
+        if (result.DSMon.length < 1) {
+            log("No subject found!");
+        } else {
+            // bind dsm to selector
+            renderStep1(result);
+
+            GetDanhSachBuoi(result);
+            result.DSBuoi = {
+                "ADNT330580": [
+                    {
+                        "BuoiID": "ADNT330580_01",
+                        "BuoiThu": "7",
+                        "DaDangKi": "51",
+                        "GiaoVien": " Huỳnh Nguyên Chính",
+                        "HideID": "162ADNT330580_01$3.00$162ADNT330580$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "1",
+                        "TietKetThuc": "4"
+                    }
+                ],
+                "CAAL240180": [
+                    {
+                        "BuoiID": "CAAL240180_01",
+                        "BuoiThu": "4",
+                        "DaDangKi": "73",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_01$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "11"
+                    },
+                    {
+                        "BuoiID": "CAAL240180_02",
+                        "BuoiThu": "5",
+                        "DaDangKi": "70",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_02$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-70",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "11"
+                    },
+                    {
+                        "BuoiID": "CAAL240180_03",
+                        "BuoiThu": "7",
+                        "DaDangKi": "70",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_03$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "1",
+                        "TietKetThuc": "5"
+                    }
+                ],
+                "CLCO432779": [
+                    {
+                        "BuoiID": "CLCO432779_01",
+                        "BuoiThu": 0,
+                        "DaDangKi": "49",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "1627CLCO432779_01$3.00$1627CLCO432779$1$0",
+                        "SiSo": "10-200",
+                        "TietBatDau": 0,
+                        "TietKetThuc": 0
+                    },
+                    {
+                        "BuoiID": "CLCO432779_02",
+                        "BuoiThu": 0,
+                        "DaDangKi": "16",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "1627CLCO432779_02$3.00$1627CLCO432779$2$0",
+                        "SiSo": "10-200",
+                        "TietBatDau": 0,
+                        "TietKetThuc": 0
+                    },
+                    {
+                        "BuoiID": "CLCO432779_03",
+                        "BuoiThu": "6",
+                        "DaDangKi": "65",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "162CLCO432779_03$3.00$162CLCO432779$1$1",
+                        "SiSo": "10-65",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "10"
+                    },
+                    {
+                        "BuoiID": "CLCO432779_04",
+                        "BuoiThu": "5",
+                        "DaDangKi": "65",
+                        "GiaoVien": " Đặng Thị Kim Giao",
+                        "HideID": "162CLCO432779_04$3.00$162CLCO432779$1$0",
+                        "SiSo": "10-65",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "10"
+                    },
+                    {
+                        "BuoiID": "CLCO432779_05",
+                        "BuoiThu": "7",
+                        "DaDangKi": "71",
+                        "GiaoVien": " Đặng Thị Kim Giao",
+                        "HideID": "162CLCO432779_05$3.00$162CLCO432779$1$0",
+                        "SiSo": "10-65",
+                        "TietBatDau": "2",
+                        "TietKetThuc": "5"
+                    }
+                ]
+            }
+
+            log('All data loaded');
+        }
+
+
+        var step1 = document.getElementById('step1');
+        var step2 = document.getElementById('step2');
+        document.getElementById('bNext').addEventListener('click', function() {
+            renderStep2(result);
+            step1.style.display = 'none';
+            step2.style.display = 'block';
+        });
+        document.getElementById('bPre').addEventListener('click', function() {
+            step1.style.display = 'block';
+            step2.style.display = 'none';
+        });
+        document.getElementById('bFinish').addEventListener('click', function() {
+            var selectedBuois = [];
+            var bSelectors = document.getElementsByClassName('bselector');
+            for (var i=0; i<bSelectors.length; i++) {
+                selectedBuois.push(bSelectors[i].childNodes[bSelectors[i].selectedIndex].getAttribute('value'));
+            }
+
+            log('')
+            log('Đã chọn '+selectedBuois.length+' buổi.');
+            dkmh(selectedBuois);
+        });
+    })
+</script>
