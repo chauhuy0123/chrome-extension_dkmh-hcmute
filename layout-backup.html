@@ -134,15 +134,86 @@
 
 <!-- Functions -->
 <script>
+    function GetDanhSachMon(userData) {
+        log("");
+        log("[DSM] sending request...");
+        $.ajax({
+            type: 'GET',
+            url: '/dangkingoaikehoach?StudyProgramID=' + userData['CTDaoTao_ID'],
+            dataType: 'html',
+            async: false,
+            success: function (html) {
+                var dsm = $(html).find('#DanhSachLop table table tbody tr');
+                log("[DSM] received - length:" + dsm.length);
+                var dsm_arr = [];
+                for (i = 0; i < dsm.length; i++) {
+                    log('[DSM] processing ' + i + '/' + dsm.length);
+                    dsm_arr[i] = {};
+                    var scriptTextParts = dsm[i].querySelector('td:last-child a').getAttribute('href').split(
+                        "'");
+                    dsm_arr[i]['CurriculumID'] = scriptTextParts[3];;
+                    dsm_arr[i]['StudyUnitID'] = scriptTextParts[1];
+                    dsm_arr[i]['tenLop'] = dsm[i].querySelector('td:nth-of-type(3)').textContent;
+                    dsm_arr[i]['stc'] = dsm[i].querySelector('td:nth-of-type(4)').textContent;
+                }
+                userData['DSMon'] = dsm_arr;
+                log("[DSM] finished !");
+            }
+        });
+    };
 
+    function GetDanhSachBuoi(userData) {
+        log("");
+        userData['DSBuoi'] = [];
+        for (j = 0; j < userData['DSMon'].length; j++) {
+            log("[DSB  " + j + '/' + userData['DSMon'].length + "] sending request... ");
+            var dsbpm = [];
+            $.ajax({
+                type: 'GET',
+                url: '/DangKiNgoaiKeHoach/DanhSachLopHocPhan/' + userData['DSMon'][j]['StudyUnitID'] +
+                    '?CurriculumID=' + userData['DSMon'][j]['CurriculumID'],
+                async: false,
+                dataType: 'html',
+                success: function (data) {
+                    var dsb = $(data).find('tr.trhover');
+                    log("[DSB  " + j + '/' + userData['DSMon'].length + "] received - length:" + dsb.length);
+                    var dsb_arr = [];
+                    for (i = 0; i < dsb.length; i++) {
+                        log("[DSB  " + j + '/' + userData['DSMon'].length + "] processing " + i + '/' + dsb
+                            .length);
+                        dsb_arr[i] = {};
+                        dsb_arr[i]['BuoiID'] = dsb[i].querySelector('td:nth-of-type(2)').textContent;
+                        dsb_arr[i]['HideID'] = dsb[i].querySelector('td:nth-of-type(4) input').getAttribute(
+                            'id');
+                        dsb_arr[i]['SiSo'] = dsb[i].querySelector('td:nth-of-type(6)').textContent;
+                        dsb_arr[i]['GiaoVien'] = dsb[i].querySelector('td:nth-of-type(8)').textContent;
+                        var buoiStrParts = dsb[i].querySelector('td:nth-of-type(9) div').textContent.split(
+                            ',');
+                        var regex = /(\d+)/g;
+                        if (buoiStrParts == null || buoiStrParts.length < 2) {
+                            dsb_arr[i]['BuoiThu'] = 0;
+                            dsb_arr[i]['TietBatDau'] = 0;
+                            dsb_arr[i]['TietKetThuc'] = 0;
+                        } else {
+                            dsb_arr[i]['BuoiThu'] = buoiStrParts[0].match(regex)[0];
+                            dsb_arr[i]['TietBatDau'] = buoiStrParts[1].match(regex)[0];
+                            dsb_arr[i]['TietKetThuc'] = buoiStrParts[1].match(regex)[1];
+                        }
+                    }
+                    userData['DSBuoi'][j] = dsb_arr;
+                }
+            });
+        }
+        log("[DSB] finished !");
+    };
 
     function dkb(CurriculumID, StudyUnitID, HideID, takeNumber) {
-        mlog('['+CurriculumID+'] #'+takeNumber+' - sending request...') ;
+        log('['+CurriculumID+'] #'+takeNumber+' - sending request...') ;
         $.ajax({
             type: 'GET',
             url: '/DangKiHocPhan?StudyUnitID=' + StudyUnitID + '&CurriculumID=' + CurriculumID + '&Hide=' + HideID,
             async: true,
-            mdype: 'html',
+            dataType: 'html',
             success: function (data) {
                 if (data.includes('thành công')) {
                     log('['+CurriculumID+'] #'+takeNumber+' - Đăng kí thành công');
@@ -150,12 +221,12 @@
                 }
                 else {
                     log('['+CurriculumID+'] #'+takeNumber+' - Err: '+data);
+                    setTimeout(function() {
+                        dkb(CurriculumID, StudyUnitID, HideID, (takeNumber+1));
+                    },0);
                     return;
                 }
             }
-        })
-        .fail( function() {
-            log('['+CurriculumID+'] #'+takeNumber+' - Err: Lỗi kết nối.');
         });
     };
 
@@ -169,7 +240,7 @@
             setTimeout(function () {
                 log('['+CurriculumID+'] started')
                 dkb(CurriculumID, StudyUnitID, HideID, 0);
-            }, 0);
+            }, 0);    
         }
     }
 
@@ -184,7 +255,7 @@
             item.addEventListener('click',function() {
                 if (this.getAttribute('class') == 'list-group-item active')
                     this.setAttribute('class','list-group-item');
-                else
+                else 
                     this.setAttribute('class','list-group-item active');
             });
             mSelector.appendChild(item);
@@ -222,7 +293,7 @@
     var mainLayout = document.getElementById('main-layout');
     var mainLayoutVisible = true;
 
-    var logText = 'khởi chạy logger';
+    var logText = 'Log started!';
     var logContaner = document.getElementById('log');
     function log(str) {
         logText += '\n';
@@ -255,7 +326,7 @@
             mainLayout.style.display = 'block';
         }
     }
-    //toggleMainLayout();
+    toggleMainLayout();
 
     var fab = document.getElementById('fab');
     fab.addEventListener('click', toggleMainLayout);
@@ -279,7 +350,7 @@
     // default display
     termPanel.style.display = 'block';
     functionalPanel.style.display = 'none';
-
+    
     var bDecline = document.getElementById('bDecline');
     var bAccept = document.getElementById('bAccept');
     bDecline.addEventListener('click', function() {
@@ -290,161 +361,146 @@
         functionalPanel.style.display = 'block';
         log('');
 
-        // app data
-        var mdata = {};
+        // start functions
+        var result = {};
+        GetDanhSachMon(result);
 
-        // lay ID khoa
-        var option = document.getElementById('chuongtrinhdaotao').firstChild;
-        if (!option) {
-            log('Không thể lấy ID. Vui lòng quay lại trang chính https://dkmh.hcmute.edu.vn/# !');
-        }
-        else {
-            mdata['CTDaoTaoId'] = option.getAttribute('value');
-            log('Lấy ID thành công');
-
-            // lay danh sach mon
-            mdata['DSMon'] = [];
-            var mSuccess = false;
-            var noData = false;
-            while (!mSuccess) {
-                log("[DSM] đang gửi yêu cầu...");
-                $.ajax({
-                    type: 'GET',
-                    url: '/dangkingoaikehoach?StudyProgramID=' + mdata['CTDaoTaoID'],
-                    dataType: 'html',
-                    async: true,
-                    success: function (html) {
-                        log("[DSM] đang xử lí dl");
-                        var dsm = $(html).find('#DanhSachLop table table tbody tr');
-                        if (dsm.length == 0) {
-                            log('[DSM] hiện tại không có môn học')
-                            noData = true;
-                        }
-                        else {
-                            mSuccess = true;
-                            var dsm_arr = [];
-                            for (i = 0; i < dsm.length; i++) {
-                                log('[DSM] đang xử lí ' + i + '/' + dsm.length + " môn");
-                                dsm_arr[i] = {};
-                                var scriptTextParts = dsm[i].querySelector('td:last-child a').getAttribute('href').split(
-                                    "'");
-                                dsm_arr[i]['CurriculumID'] = scriptTextParts[3];;
-                                dsm_arr[i]['StudyUnitID'] = scriptTextParts[1];
-                                dsm_arr[i]['tenLop'] = dsm[i].querySelector('td:nth-of-type(3)').textContent;
-                                dsm_arr[i]['stc'] = dsm[i].querySelector('td:nth-of-type(4)').textContent;
-                            }
-                            mdata['DSMon'] = dsm_arr;
-                        }
-                        log("[DSM] xong !");
-                    }
-                })
-                .fail( function() {
-                    log("[DSM] lỗi kết nối !");
-                    log("[DSM] đang thử lại");
-                });
-            };
-
-            // danh sach mon khong chinh thuc
-            // * need test
-            if (noData) {
-                /* beta func
-                var useSecondMethod = confirm('Hiện tại chưa có ds môn chính thức, sử dụng danh sách môn trong chương trình đạo tạo (không bao gồm anh văn và toán) ?');
-                if (useSecondMethod) {
-                    log('[DSMDK]');
-                    var cols = $('td.col2');
-                    log ('[DSMDK] tìm thấy '+cols.length+'môn');
-
-                    var dsmdk = [];
-                    for (var i=0; i<cols.length; i++) {
-                        log("[DSMDK] #"+i+'/'+cols.length+" đang gửi yêu cầu...");
-                        $.ajax({
-                            type: 'GET',
-                            url: '/TraCuuHocPhan?txtSearch=' + cols.innerText,
-                            dataType: 'html',
-                            async: true,
-                            success: function (html) {
-                                var dsb = $(html).find('table table tr');
-                                if (dsb.length == 0) {
-                                    // no record
-                                }
-                                else {
-                                    var dsb_arr = [];
-                                    for (i = 1; i < dsb.childNodes.length; i++) {
-                                        dsb_arr[i] = {};
-                                        var scriptTextParts = dsm[i].querySelector('td:last-child a').getAttribute('href').split(
-                                            "'");
-                                        dsm_arr[i]['CurriculumID'] = scriptTextParts[3];;
-                                        dsm_arr[i]['StudyUnitID'] = scriptTextParts[1];
-                                        dsm_arr[i]['tenLop'] = dsm[i].querySelector('td:nth-of-type(3)').textContent;
-                                        dsm_arr[i]['stc'] = dsm[i].querySelector('td:nth-of-type(4)').textContent;
-                                    }
-                                    mdata['DSMon'] = dsm_arr;
-                                }
-                                log("[DSMDK] xong !");
-                            },
-                            error: function(xhr, status, err) {
-                                log('[DSMDK] hiện tại không có môn học');
-                                log('[DSMDK] dang thu lai');
-                                $.ajax(this);
-                            }
-                        });
-                    }
-                    */
-                    log('Hiện tại chưa có danh sách học phần dđược đăng kí !');
-                }
+        // sample data
+        result.DSMon = [
+            {
+                "CurriculumID": "ADNT330580",
+                "StudyUnitID": "162ADNT330580",
+                "tenLop": "Mạng máy tính nâng cao",
+                "stc": "3"
+            },
+            {
+                "CurriculumID": "CAAL240180",
+                "StudyUnitID": "162CAAL240180",
+                "tenLop": "Kiến trúc máy tính và hợp ngữ",
+                "stc": "4"
+            },
+            {
+                "CurriculumID": "CLCO432779",
+                "StudyUnitID": "162CLCO432779",
+                "tenLop": "Điện toán đám mây",
+                "stc": "3"
             }
-            else {
-                userData['DSBuoi'] = [];
-                for (j = 0; j < userData['DSMon'].length; j++) {
-                    log("[DSB  " + j + '/' + userData['DSMon'].length + "] đang gửi yêu cầu... ");
-                    var dsbpm = [];
-                    $.ajax({
-                        type: 'GET',
-                        url: '/DangKiNgoaiKemd/DanhSachLopHocPhan/' + userData['DSMon'][j]['StudyUnitID'] +
-                            '?CurriculumID=' + userData['DSMon'][j]['CurriculumID'],
-                        async: false,
-                        dataType: 'html',
-                        success: function (data) {
-                            var dsb = $(data).find('tr.trhover');
-                            log("[DSB  " + j + '/' + userData['DSMon'].length + "] received - length:" + dsb.length);
-                            var dsb_arr = [];
-                            for (i = 0; i < dsb.length; i++) {
-                                log("[DSB  " + j + '/' + userData['DSMon'].length + "] processing " + i + '/' + dsb
-                                    .length);
-                                dsb_arr[i] = {};
-                                dsb_arr[i]['BuoiID'] = dsb[i].querySelector('td:nth-of-type(2)').textContent;
-                                dsb_arr[i]['HideID'] = dsb[i].querySelector('td:nth-of-type(4) input').getAttribute(
-                                    'id');
-                                dsb_arr[i]['SiSo'] = dsb[i].querySelector('td:nth-of-type(6)').textContent;
-                                dsb_arr[i]['GiaoVien'] = dsb[i].querySelector('td:nth-of-type(8)').textContent;
-                                var buoiStrParts = dsb[i].querySelector('td:nth-of-type(9) div').textContent.split(
-                                    ',');
-                                var regex = /(\d+)/g;
-                                if (buoiStrParts == null || buoiStrParts.length < 2) {
-                                    dsb_arr[i]['BuoiThu'] = 0;
-                                    dsb_arr[i]['TietBatDau'] = 0;
-                                    dsb_arr[i]['TietKetThuc'] = 0;
-                                } else {
-                                    dsb_arr[i]['BuoiThu'] = buoiStrParts[0].match(regex)[0];
-                                    dsb_arr[i]['TietBatDau'] = buoiStrParts[1].match(regex)[0];
-                                    dsb_arr[i]['TietKetThuc'] = buoiStrParts[1].match(regex)[1];
-                                }
-                            }
-                            userData['DSBuoi'][j] = dsb_arr;
-                        }
-                    });
-                }
-                log("[DSB] finished !");
+        ];
+
+        if (result.DSMon.length < 1) {
+            log("No subject found!");
+        } else {
+            // bind dsm to selector
+            renderStep1(result);
+
+            GetDanhSachBuoi(result);
+            result.DSBuoi = {
+                "ADNT330580": [
+                    {
+                        "BuoiID": "ADNT330580_01",
+                        "BuoiThu": "7",
+                        "DaDangKi": "51",
+                        "GiaoVien": " Huỳnh Nguyên Chính",
+                        "HideID": "162ADNT330580_01$3.00$162ADNT330580$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "1",
+                        "TietKetThuc": "4"
+                    }
+                ],
+                "CAAL240180": [
+                    {
+                        "BuoiID": "CAAL240180_01",
+                        "BuoiThu": "4",
+                        "DaDangKi": "73",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_01$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "11"
+                    },
+                    {
+                        "BuoiID": "CAAL240180_02",
+                        "BuoiThu": "5",
+                        "DaDangKi": "70",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_02$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-70",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "11"
+                    },
+                    {
+                        "BuoiID": "CAAL240180_03",
+                        "BuoiThu": "7",
+                        "DaDangKi": "70",
+                        "GiaoVien": " Lê Văn Khoan",
+                        "HideID": "162CAAL240180_03$4.00$162CAAL240180$1$0",
+                        "SiSo": "10-60",
+                        "TietBatDau": "1",
+                        "TietKetThuc": "5"
+                    }
+                ],
+                "CLCO432779": [
+                    {
+                        "BuoiID": "CLCO432779_01",
+                        "BuoiThu": 0,
+                        "DaDangKi": "49",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "1627CLCO432779_01$3.00$1627CLCO432779$1$0",
+                        "SiSo": "10-200",
+                        "TietBatDau": 0,
+                        "TietKetThuc": 0
+                    },
+                    {
+                        "BuoiID": "CLCO432779_02",
+                        "BuoiThu": 0,
+                        "DaDangKi": "16",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "1627CLCO432779_02$3.00$1627CLCO432779$2$0",
+                        "SiSo": "10-200",
+                        "TietBatDau": 0,
+                        "TietKetThuc": 0
+                    },
+                    {
+                        "BuoiID": "CLCO432779_03",
+                        "BuoiThu": "6",
+                        "DaDangKi": "65",
+                        "GiaoVien": " Đặng Thanh Dũng",
+                        "HideID": "162CLCO432779_03$3.00$162CLCO432779$1$1",
+                        "SiSo": "10-65",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "10"
+                    },
+                    {
+                        "BuoiID": "CLCO432779_04",
+                        "BuoiThu": "5",
+                        "DaDangKi": "65",
+                        "GiaoVien": " Đặng Thị Kim Giao",
+                        "HideID": "162CLCO432779_04$3.00$162CLCO432779$1$0",
+                        "SiSo": "10-65",
+                        "TietBatDau": "7",
+                        "TietKetThuc": "10"
+                    },
+                    {
+                        "BuoiID": "CLCO432779_05",
+                        "BuoiThu": "7",
+                        "DaDangKi": "71",
+                        "GiaoVien": " Đặng Thị Kim Giao",
+                        "HideID": "162CLCO432779_05$3.00$162CLCO432779$1$0",
+                        "SiSo": "10-65",
+                        "TietBatDau": "2",
+                        "TietKetThuc": "5"
+                    }
+                ]
             }
 
+            log('All data loaded');
         }
 
 
-        // hien thi du lieu
         var step1 = document.getElementById('step1');
         var step2 = document.getElementById('step2');
         document.getElementById('bNext').addEventListener('click', function() {
-            renderStep2(mdata);
+            renderStep2(result);
             step1.style.display = 'none';
             step2.style.display = 'block';
         });

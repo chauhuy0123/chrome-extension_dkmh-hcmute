@@ -1,0 +1,4581 @@
+{
+  "DanhSachKhoa": {
+    "lmgPbT9QJCU=": "Công nghệ thông tin K14"
+  },
+  "DanhSachBuoiHoc": {
+    "lmgPbT9QJCU=": {
+      "ADNT330580": {
+        "ADNT330580_01": {
+          "BuoiID": "ADNT330580_01",
+          "BuoiThu": "7",
+          "DaDangKi": "51",
+          "GiaoVien": " Huỳnh Nguyên Chính",
+          "HideID": "162ADNT330580_01$3.00$162ADNT330580$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "CAAL240180": {
+        "CAAL240180_01": {
+          "BuoiID": "CAAL240180_01",
+          "BuoiThu": "4",
+          "DaDangKi": "73",
+          "GiaoVien": " Lê Văn Khoan",
+          "HideID": "162CAAL240180_01$4.00$162CAAL240180$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "CAAL240180_02": {
+          "BuoiID": "CAAL240180_02",
+          "BuoiThu": "5",
+          "DaDangKi": "70",
+          "GiaoVien": " Lê Văn Khoan",
+          "HideID": "162CAAL240180_02$4.00$162CAAL240180$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "CAAL240180_03": {
+          "BuoiID": "CAAL240180_03",
+          "BuoiThu": "7",
+          "DaDangKi": "70",
+          "GiaoVien": " Lê Văn Khoan",
+          "HideID": "162CAAL240180_03$4.00$162CAAL240180$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "CLCO432779": {
+        "CLCO432779_01": {
+          "BuoiID": "CLCO432779_01",
+          "BuoiThu": 0,
+          "DaDangKi": "49",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "1627CLCO432779_01$3.00$1627CLCO432779$1$0",
+          "SiSo": "10-200",
+          "TietBatDau": 0,
+          "TietKetThuc": 0
+        },
+        "CLCO432779_02": {
+          "BuoiID": "CLCO432779_02",
+          "BuoiThu": 0,
+          "DaDangKi": "16",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "1627CLCO432779_02$3.00$1627CLCO432779$2$0",
+          "SiSo": "10-200",
+          "TietBatDau": 0,
+          "TietKetThuc": 0
+        },
+        "CLCO432779_03": {
+          "BuoiID": "CLCO432779_03",
+          "BuoiThu": "6",
+          "DaDangKi": "65",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "162CLCO432779_03$3.00$162CLCO432779$1$1",
+          "SiSo": "10-65",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "CLCO432779_04": {
+          "BuoiID": "CLCO432779_04",
+          "BuoiThu": "5",
+          "DaDangKi": "65",
+          "GiaoVien": " Đặng Thị Kim Giao",
+          "HideID": "162CLCO432779_04$3.00$162CLCO432779$1$0",
+          "SiSo": "10-65",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "CLCO432779_05": {
+          "BuoiID": "CLCO432779_05",
+          "BuoiThu": "7",
+          "DaDangKi": "71",
+          "GiaoVien": " Đặng Thị Kim Giao",
+          "HideID": "162CLCO432779_05$3.00$162CLCO432779$1$0",
+          "SiSo": "10-65",
+          "TietBatDau": "2",
+          "TietKetThuc": "5"
+        }
+      },
+      "CNDE430780": {
+        "CNDE430780_01": {
+          "BuoiID": "CNDE430780_01",
+          "BuoiThu": "6",
+          "DaDangKi": "15",
+          "GiaoVien": " Huỳnh Nguyên Chính",
+          "HideID": "162CNDE430780_01$3.00$162CNDE430780$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "9",
+          "TietKetThuc": "12"
+        }
+      },
+      "DAMI330484": {
+        "DAMI330484_01": {
+          "BuoiID": "DAMI330484_01",
+          "BuoiThu": "5",
+          "DaDangKi": "57",
+          "GiaoVien": " Quách Đình Hoàng",
+          "HideID": "162DAMI330484_01$3.00$162DAMI330484$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "DASA240179": {
+        "DASA240179_01": {
+          "BuoiID": "DASA240179_01",
+          "BuoiThu": "3",
+          "DaDangKi": "60",
+          "GiaoVien": " Mai Tuấn Khôi",
+          "HideID": "162DASA240179_01$4.00$162DASA240179$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "DBMS340284": {
+        "DBMS340284_01": {
+          "BuoiID": "DBMS340284_01",
+          "BuoiThu": "4",
+          "DaDangKi": "54",
+          "GiaoVien": " Nguyễn Thành Sơn",
+          "HideID": "162DBMS340284_01$4.00$162DBMS340284$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "DBSY240184": {
+        "DBSY240184_01": {
+          "BuoiID": "DBSY240184_01",
+          "BuoiThu": "2",
+          "DaDangKi": "73",
+          "GiaoVien": " Nguyễn Thành Sơn",
+          "HideID": "162DBSY240184_01$4.00$162DBSY240184$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "DBSY240184_02": {
+          "BuoiID": "DBSY240184_02",
+          "BuoiThu": "6",
+          "DaDangKi": "64",
+          "GiaoVien": " Nguyễn Thành Sơn",
+          "HideID": "162DBSY240184_02$4.00$162DBSY240184$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "DBSY240184_03": {
+          "BuoiID": "DBSY240184_03",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thành Sơn",
+          "HideID": "162DBSY240184_03$4.00$162DBSY240184$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "DBSY240184_04": {
+          "BuoiID": "DBSY240184_04",
+          "BuoiThu": "2",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thành Sơn",
+          "HideID": "162DBSY240184_04$4.00$162DBSY240184$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "DCTE330480": {
+        "DCTE330480_01": {
+          "BuoiID": "DCTE330480_01",
+          "BuoiThu": "3",
+          "DaDangKi": "55",
+          "GiaoVien": " Đinh Công Đoan",
+          "HideID": "162DCTE330480_01$3.00$162DCTE330480$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        }
+      },
+      "DIDB330584": {
+        "DIDB330584_01": {
+          "BuoiID": "DIDB330584_01",
+          "BuoiThu": "3",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Phương",
+          "HideID": "162DIDB330584_01$3.00$162DIDB330584$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "ECOM430984": {
+        "ECOM430984_01": {
+          "BuoiID": "ECOM430984_01",
+          "BuoiThu": "3",
+          "DaDangKi": "60",
+          "GiaoVien": " Hoàng Long",
+          "HideID": "162ECOM430984_01$3.00$162ECOM430984$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "ENGL130137": {
+        "ENGL130137_01": {
+          "BuoiID": "ENGL130137_01",
+          "BuoiThu": "7",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Thanh Nga",
+          "HideID": "162ENGL130137_01$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL130137_02": {
+          "BuoiID": "ENGL130137_02",
+          "BuoiThu": "4",
+          "DaDangKi": "49",
+          "GiaoVien": " Nguyễn Thị Ngọc Hà",
+          "HideID": "162ENGL130137_02$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL130137_03": {
+          "BuoiID": "ENGL130137_03",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Trung Hiếu",
+          "HideID": "162ENGL130137_03$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL130137_04": {
+          "BuoiID": "ENGL130137_04",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Đặng Bá Ngoạn",
+          "HideID": "162ENGL130137_04$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL130137_05": {
+          "BuoiID": "ENGL130137_05",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Đặng Bá Ngoạn",
+          "HideID": "162ENGL130137_05$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL130137_06": {
+          "BuoiID": "ENGL130137_06",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Hồng Mỹ",
+          "HideID": "162ENGL130137_06$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL130137_07": {
+          "BuoiID": "ENGL130137_07",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Đặng Bá Ngoạn",
+          "HideID": "162ENGL130137_07$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL130137_08": {
+          "BuoiID": "ENGL130137_08",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Đặng Bá Ngoạn",
+          "HideID": "162ENGL130137_08$3.00$162ENGL130137$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        }
+      },
+      "ENGL230237": {
+        "ENGL230237_01": {
+          "BuoiID": "ENGL230237_01",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Thảo",
+          "HideID": "162ENGL230237_01$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_02": {
+          "BuoiID": "ENGL230237_02",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Hoàng Linh",
+          "HideID": "162ENGL230237_02$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL230237_03": {
+          "BuoiID": "ENGL230237_03",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Thảo",
+          "HideID": "162ENGL230237_03$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_04": {
+          "BuoiID": "ENGL230237_04",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Sử Thị Ái Mỹ",
+          "HideID": "162ENGL230237_04$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_05": {
+          "BuoiID": "ENGL230237_05",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Sử Thị Ái Mỹ",
+          "HideID": "162ENGL230237_05$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_06": {
+          "BuoiID": "ENGL230237_06",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Hứa Trần Phương Thảo",
+          "HideID": "162ENGL230237_06$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_07": {
+          "BuoiID": "ENGL230237_07",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Thảo",
+          "HideID": "162ENGL230237_07$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL230237_08": {
+          "BuoiID": "ENGL230237_08",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Hoàng Linh",
+          "HideID": "162ENGL230237_08$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL230237_09": {
+          "BuoiID": "ENGL230237_09",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Phan Vũ Bình Minh",
+          "HideID": "162ENGL230237_09$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_10": {
+          "BuoiID": "ENGL230237_10",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Thị Kim Ánh",
+          "HideID": "162ENGL230237_10$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_11": {
+          "BuoiID": "ENGL230237_11",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Hoàng Linh",
+          "HideID": "162ENGL230237_11$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL230237_12": {
+          "BuoiID": "ENGL230237_12",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Phan Vũ Bình Minh",
+          "HideID": "162ENGL230237_12$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_13": {
+          "BuoiID": "ENGL230237_13",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Trung Hiếu",
+          "HideID": "162ENGL230237_13$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL230237_14": {
+          "BuoiID": "ENGL230237_14",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Thảo",
+          "HideID": "162ENGL230237_14$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_15": {
+          "BuoiID": "ENGL230237_15",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Lê Thị Thanh Hà",
+          "HideID": "162ENGL230237_15$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL230237_16": {
+          "BuoiID": "ENGL230237_16",
+          "BuoiThu": "7",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Ngọc Hà",
+          "HideID": "162ENGL230237_16$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "ENGL230237_17": {
+          "BuoiID": "ENGL230237_17",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Văn Khanh",
+          "HideID": "162ENGL230237_17$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL230237_18": {
+          "BuoiID": "ENGL230237_18",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Văn Khanh",
+          "HideID": "162ENGL230237_18$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "ENGL230237_19": {
+          "BuoiID": "ENGL230237_19",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Lê Quốc Kiệt",
+          "HideID": "162ENGL230237_19$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL230237_20": {
+          "BuoiID": "ENGL230237_20",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Lê Quốc Kiệt",
+          "HideID": "162ENGL230237_20$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_21": {
+          "BuoiID": "ENGL230237_21",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Phan Nguyễn Huyền Châu",
+          "HideID": "162ENGL230237_21$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_22": {
+          "BuoiID": "ENGL230237_22",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Phan Nguyễn Huyền Châu",
+          "HideID": "162ENGL230237_22$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_23": {
+          "BuoiID": "ENGL230237_23",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Hải Hà",
+          "HideID": "162ENGL230237_23$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_24": {
+          "BuoiID": "ENGL230237_24",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Anh Trang",
+          "HideID": "162ENGL230237_24$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL230237_25": {
+          "BuoiID": "ENGL230237_25",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Anh Trang",
+          "HideID": "162ENGL230237_25$3.00$162ENGL230237$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        }
+      },
+      "ENGL330337": {
+        "ENGL330337_01": {
+          "BuoiID": "ENGL330337_01",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Lê Quốc Kiệt",
+          "HideID": "162ENGL330337_01$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL330337_02": {
+          "BuoiID": "ENGL330337_02",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Phan Nguyễn Huyền Châu",
+          "HideID": "162ENGL330337_02$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL330337_03": {
+          "BuoiID": "ENGL330337_03",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Ngọc Thảo",
+          "HideID": "162ENGL330337_03$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL330337_04": {
+          "BuoiID": "ENGL330337_04",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Sử Thị Ái Mỹ",
+          "HideID": "162ENGL330337_04$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL330337_05": {
+          "BuoiID": "ENGL330337_05",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Hồng Mỹ",
+          "HideID": "162ENGL330337_05$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "ENGL330337_06": {
+          "BuoiID": "ENGL330337_06",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Đinh Thị Thanh Hằng",
+          "HideID": "162ENGL330337_06$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL330337_08": {
+          "BuoiID": "ENGL330337_08",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thị Hải Hà",
+          "HideID": "162ENGL330337_08$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "ENGL330337_09": {
+          "BuoiID": "ENGL330337_09",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Bảo Quỳnh",
+          "HideID": "162ENGL330337_09$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "ENGL330337_10": {
+          "BuoiID": "ENGL330337_10",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Bảo Quỳnh",
+          "HideID": "162ENGL330337_10$3.00$162ENGL330337$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "ESDN432079": {
+        "ESDN432079_02": {
+          "BuoiID": "ESDN432079_02",
+          "BuoiThu": "7",
+          "DaDangKi": "57",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "162ESDN432079_02$3.00$162ESDN432079$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "ESDN432079_03": {
+          "BuoiID": "ESDN432079_03",
+          "BuoiThu": "4",
+          "DaDangKi": "3",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "162ESDN432079_03$3.00$162ESDN432079$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "ESDN432079_05": {
+          "BuoiID": "ESDN432079_05",
+          "BuoiThu": "6",
+          "DaDangKi": "29",
+          "GiaoVien": " Đặng Thanh Dũng",
+          "HideID": "162ESDN432079_05$3.00$162ESDN432079$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "2",
+          "TietKetThuc": "5"
+        }
+      },
+      "ESYS431080": {
+        "ESYS431080_01": {
+          "BuoiID": "ESYS431080_01",
+          "BuoiThu": "2",
+          "DaDangKi": "60",
+          "GiaoVien": " Đinh Công Đoan",
+          "HideID": "162ESYS431080_01$3.00$162ESYS431080$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "8",
+          "TietKetThuc": "11"
+        },
+        "ESYS431080_02": {
+          "BuoiID": "ESYS431080_02",
+          "BuoiThu": "6",
+          "DaDangKi": "60",
+          "GiaoVien": " Đinh Công Đoan",
+          "HideID": "162ESYS431080_02$3.00$162ESYS431080$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "GEEC220105": {
+        "GEEC220105_08": {
+          "BuoiID": "GEEC220105_08",
+          "BuoiThu": "2",
+          "DaDangKi": "99",
+          "GiaoVien": " Huỳnh Thị Cẩm Tú",
+          "HideID": "162GEEC220105_08$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "GEEC220105_09": {
+          "BuoiID": "GEEC220105_09",
+          "BuoiThu": "4",
+          "DaDangKi": "81",
+          "GiaoVien": " Huỳnh Thị Cẩm Tú",
+          "HideID": "162GEEC220105_09$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "GEEC220105_10": {
+          "BuoiID": "GEEC220105_10",
+          "BuoiThu": "5",
+          "DaDangKi": "98",
+          "GiaoVien": " Huỳnh Thị Cẩm Tú",
+          "HideID": "162GEEC220105_10$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "GEEC220105_11": {
+          "BuoiID": "GEEC220105_11",
+          "BuoiThu": "3",
+          "DaDangKi": "94",
+          "GiaoVien": " Trương Thị Hòa",
+          "HideID": "162GEEC220105_11$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "GEEC220105_12": {
+          "BuoiID": "GEEC220105_12",
+          "BuoiThu": "4",
+          "DaDangKi": "98",
+          "GiaoVien": " Trương Thị Hòa",
+          "HideID": "162GEEC220105_12$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "GEEC220105_13": {
+          "BuoiID": "GEEC220105_13",
+          "BuoiThu": "6",
+          "DaDangKi": "80",
+          "GiaoVien": " Bùi Thu Anh",
+          "HideID": "162GEEC220105_13$2.00$162GEEC220105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "GELA220405": {
+        "GELA220405_09": {
+          "BuoiID": "GELA220405_09",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_09$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "GELA220405_10": {
+          "BuoiID": "GELA220405_10",
+          "BuoiThu": "6",
+          "DaDangKi": "75",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_10$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_11": {
+          "BuoiID": "GELA220405_11",
+          "BuoiThu": "6",
+          "DaDangKi": "32",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_11$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "GELA220405_12": {
+          "BuoiID": "GELA220405_12",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_12$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_13": {
+          "BuoiID": "GELA220405_13",
+          "BuoiThu": "7",
+          "DaDangKi": "59",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_13$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_14": {
+          "BuoiID": "GELA220405_14",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_14$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_15": {
+          "BuoiID": "GELA220405_15",
+          "BuoiThu": "6",
+          "DaDangKi": "99",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_15$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "GELA220405_16": {
+          "BuoiID": "GELA220405_16",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Tuyết Nga",
+          "HideID": "162GELA220405_16$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "GELA220405_17": {
+          "BuoiID": "GELA220405_17",
+          "BuoiThu": "5",
+          "DaDangKi": "9",
+          "GiaoVien": " Lê Văn Hợp",
+          "HideID": "162GELA220405_17$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "GELA220405_18": {
+          "BuoiID": "GELA220405_18",
+          "BuoiThu": "4",
+          "DaDangKi": "10",
+          "GiaoVien": " Lê Văn Hợp",
+          "HideID": "162GELA220405_18$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "GELA220405_19": {
+          "BuoiID": "GELA220405_19",
+          "BuoiThu": "5",
+          "DaDangKi": "10",
+          "GiaoVien": " Lê Văn Hợp",
+          "HideID": "162GELA220405_19$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "GELA220405_20": {
+          "BuoiID": "GELA220405_20",
+          "BuoiThu": "3",
+          "DaDangKi": "48",
+          "GiaoVien": " Lê Văn Hợp",
+          "HideID": "162GELA220405_20$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_21": {
+          "BuoiID": "GELA220405_21",
+          "BuoiThu": "4",
+          "DaDangKi": "21",
+          "GiaoVien": " Ngô Thùy Dung",
+          "HideID": "162GELA220405_21$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "GELA220405_22": {
+          "BuoiID": "GELA220405_22",
+          "BuoiThu": "6",
+          "DaDangKi": "60",
+          "GiaoVien": " Ngô Thùy Dung",
+          "HideID": "162GELA220405_22$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "GELA220405_23": {
+          "BuoiID": "GELA220405_23",
+          "BuoiThu": "2",
+          "DaDangKi": "71",
+          "GiaoVien": " Ngô Thùy Dung",
+          "HideID": "162GELA220405_23$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "GELA220405_24": {
+          "BuoiID": "GELA220405_24",
+          "BuoiThu": "4",
+          "DaDangKi": "28",
+          "GiaoVien": " Phan Thị Hồng Oanh",
+          "HideID": "162GELA220405_24$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        },
+        "GELA220405_25": {
+          "BuoiID": "GELA220405_25",
+          "BuoiThu": "7",
+          "DaDangKi": "33",
+          "GiaoVien": " Phan Thị Hồng Oanh",
+          "HideID": "162GELA220405_25$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "GELA220405_26": {
+          "BuoiID": "GELA220405_26",
+          "BuoiThu": "7",
+          "DaDangKi": "18",
+          "GiaoVien": " Phan Thị Hồng Oanh",
+          "HideID": "162GELA220405_26$2.00$162GELA220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        }
+      },
+      "INLO220405": {
+        "INLO220405_03": {
+          "BuoiID": "INLO220405_03",
+          "BuoiThu": "2",
+          "DaDangKi": "19",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_03$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INLO220405_04": {
+          "BuoiID": "INLO220405_04",
+          "BuoiThu": "4",
+          "DaDangKi": "28",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_04$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "INLO220405_05": {
+          "BuoiID": "INLO220405_05",
+          "BuoiThu": "3",
+          "DaDangKi": "47",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_05$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "INLO220405_06": {
+          "BuoiID": "INLO220405_06",
+          "BuoiThu": "4",
+          "DaDangKi": "68",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_06$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INLO220405_07": {
+          "BuoiID": "INLO220405_07",
+          "BuoiThu": "5",
+          "DaDangKi": "57",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_07$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INLO220405_08": {
+          "BuoiID": "INLO220405_08",
+          "BuoiThu": "6",
+          "DaDangKi": "85",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_08$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INLO220405_09": {
+          "BuoiID": "INLO220405_09",
+          "BuoiThu": "5",
+          "DaDangKi": "32",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_09$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "INLO220405_10": {
+          "BuoiID": "INLO220405_10",
+          "BuoiThu": "2",
+          "DaDangKi": "59",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_10$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "INLO220405_11": {
+          "BuoiID": "INLO220405_11",
+          "BuoiThu": "4",
+          "DaDangKi": "47",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_11$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "INLO220405_12": {
+          "BuoiID": "INLO220405_12",
+          "BuoiThu": "3",
+          "DaDangKi": "96",
+          "GiaoVien": " Đặng Thị Minh Tuấn",
+          "HideID": "162INLO220405_12$2.00$162INLO220405$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        }
+      },
+      "INMA220305": {
+        "INMA220305_01": {
+          "BuoiID": "INMA220305_01",
+          "BuoiThu": "6",
+          "DaDangKi": "99",
+          "GiaoVien": " Phan Thị Thanh Hiền",
+          "HideID": "162INMA220305_01$2.00$162INMA220305$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "INMA220305_02": {
+          "BuoiID": "INMA220305_02",
+          "BuoiThu": "7",
+          "DaDangKi": "83",
+          "GiaoVien": " Phan Thị Thanh Hiền",
+          "HideID": "162INMA220305_02$2.00$162INMA220305$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "INMA220305_03": {
+          "BuoiID": "INMA220305_03",
+          "BuoiThu": "3",
+          "DaDangKi": "27",
+          "GiaoVien": " Nguyễn Thị Hồng",
+          "HideID": "162INMA220305_03$2.00$162INMA220305$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "11"
+        },
+        "INMA220305_04": {
+          "BuoiID": "INMA220305_04",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Hồng",
+          "HideID": "162INMA220305_04$2.00$162INMA220305$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "INMA220305_05": {
+          "BuoiID": "INMA220305_05",
+          "BuoiThu": "2",
+          "DaDangKi": "93",
+          "GiaoVien": " Nguyễn Thị Hồng",
+          "HideID": "162INMA220305_05$2.00$162INMA220305$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "INPR140285": {
+        "INPR140285_01": {
+          "BuoiID": "INPR140285_01",
+          "BuoiThu": "6",
+          "DaDangKi": "60",
+          "GiaoVien": " Trần Công Tú",
+          "HideID": "162INPR140285_01$4.00$162INPR140285$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "INPR140285_02": {
+          "BuoiID": "INPR140285_02",
+          "BuoiThu": "2",
+          "DaDangKi": "60",
+          "GiaoVien": " Trần Công Tú",
+          "HideID": "162INPR140285_02$4.00$162INPR140285$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "INRE431084": {
+        "INRE431084_01": {
+          "BuoiID": "INRE431084_01",
+          "BuoiThu": "4",
+          "DaDangKi": "57",
+          "GiaoVien": " Quách Đình Hoàng",
+          "HideID": "162INRE431084_01$3.00$162INRE431084$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "INSE340379": {
+        "INSE340379_01": {
+          "BuoiID": "INSE340379_01",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162INSE340379_01$4.00$162INSE340379$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "INSE340379_02": {
+          "BuoiID": "INSE340379_02",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162INSE340379_02$4.00$162INSE340379$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "INSE340379_03": {
+          "BuoiID": "INSE340379_03",
+          "BuoiThu": "3",
+          "DaDangKi": "72",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162INSE340379_03$4.00$162INSE340379$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "INSO321005": {
+        "INSO321005_01": {
+          "BuoiID": "INSO321005_01",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_01$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INSO321005_02": {
+          "BuoiID": "INSO321005_02",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_02$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "INSO321005_03": {
+          "BuoiID": "INSO321005_03",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_03$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "INSO321005_04": {
+          "BuoiID": "INSO321005_04",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_04$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "INSO321005_05": {
+          "BuoiID": "INSO321005_05",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_05$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "INSO321005_06": {
+          "BuoiID": "INSO321005_06",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_06$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INSO321005_07": {
+          "BuoiID": "INSO321005_07",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_07$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "INSO321005_08": {
+          "BuoiID": "INSO321005_08",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_08$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "INSO321005_09": {
+          "BuoiID": "INSO321005_09",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_09$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "INSO321005_10": {
+          "BuoiID": "INSO321005_10",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Như Thúy",
+          "HideID": "162INSO321005_10$2.00$162INSO321005$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        }
+      },
+      "IQMA220205": {
+        "IQMA220205_01": {
+          "BuoiID": "IQMA220205_01",
+          "BuoiThu": "6",
+          "DaDangKi": "99",
+          "GiaoVien": " Nguyễn Thị Anh Vân",
+          "HideID": "162IQMA220205_01$2.00$162IQMA220205$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "IQMA220205_02": {
+          "BuoiID": "IQMA220205_02",
+          "BuoiThu": "3",
+          "DaDangKi": "69",
+          "GiaoVien": " Nguyễn Thị Anh Vân",
+          "HideID": "162IQMA220205_02$2.00$162IQMA220205$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "IQMA220205_03": {
+          "BuoiID": "IQMA220205_03",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thị Anh Vân",
+          "HideID": "162IQMA220205_03$2.00$162IQMA220205$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        }
+      },
+      "ISAD330384": {
+        "ISAD330384_01": {
+          "BuoiID": "ISAD330384_01",
+          "BuoiThu": "2",
+          "DaDangKi": "56",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162ISAD330384_01$3.00$162ISAD330384$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "ITPM430884": {
+        "ITPM430884_01": {
+          "BuoiID": "ITPM430884_01",
+          "BuoiThu": "2",
+          "DaDangKi": "60",
+          "GiaoVien": " Hoàng Long",
+          "HideID": "162ITPM430884_01$3.00$162ITPM430884$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "IVNC320905": {
+        "IVNC320905_01": {
+          "BuoiID": "IVNC320905_01",
+          "BuoiThu": "2",
+          "DaDangKi": "8",
+          "GiaoVien": " Phạm Thị Hằng",
+          "HideID": "162IVNC320905_01$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "IVNC320905_02": {
+          "BuoiID": "IVNC320905_02",
+          "BuoiThu": "6",
+          "DaDangKi": "69",
+          "GiaoVien": " Phạm Thị Hằng",
+          "HideID": "162IVNC320905_02$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "IVNC320905_03": {
+          "BuoiID": "IVNC320905_03",
+          "BuoiThu": "2",
+          "DaDangKi": "13",
+          "GiaoVien": " Phạm Thị Hằng",
+          "HideID": "162IVNC320905_03$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "IVNC320905_04": {
+          "BuoiID": "IVNC320905_04",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_04$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        },
+        "IVNC320905_05": {
+          "BuoiID": "IVNC320905_05",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_05$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "IVNC320905_06": {
+          "BuoiID": "IVNC320905_06",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_06$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "IVNC320905_07": {
+          "BuoiID": "IVNC320905_07",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_07$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "IVNC320905_08": {
+          "BuoiID": "IVNC320905_08",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_08$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "IVNC320905_09": {
+          "BuoiID": "IVNC320905_09",
+          "BuoiThu": "5",
+          "DaDangKi": "99",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_09$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "IVNC320905_10": {
+          "BuoiID": "IVNC320905_10",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_10$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "IVNC320905_11": {
+          "BuoiID": "IVNC320905_11",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Trương Thị Mỹ Châu",
+          "HideID": "162IVNC320905_11$2.00$162IVNC320905$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        }
+      },
+      "LLCT120314": {
+        "LLCT120314_02": {
+          "BuoiID": "LLCT120314_02",
+          "BuoiThu": "3",
+          "DaDangKi": "20",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_02$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "LLCT120314_03": {
+          "BuoiID": "LLCT120314_03",
+          "BuoiThu": "5",
+          "DaDangKi": "29",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_03$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "LLCT120314_04": {
+          "BuoiID": "LLCT120314_04",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_04$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "LLCT120314_05": {
+          "BuoiID": "LLCT120314_05",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_05$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "LLCT120314_06": {
+          "BuoiID": "LLCT120314_06",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_06$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "LLCT120314_07": {
+          "BuoiID": "LLCT120314_07",
+          "BuoiThu": "2",
+          "DaDangKi": "94",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_07$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "LLCT120314_08": {
+          "BuoiID": "LLCT120314_08",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_08$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "LLCT120314_09": {
+          "BuoiID": "LLCT120314_09",
+          "BuoiThu": "6",
+          "DaDangKi": "91",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_09$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "LLCT120314_10": {
+          "BuoiID": "LLCT120314_10",
+          "BuoiThu": "7",
+          "DaDangKi": "73",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_10$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "LLCT120314_11": {
+          "BuoiID": "LLCT120314_11",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_11$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "LLCT120314_12": {
+          "BuoiID": "LLCT120314_12",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_12$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "LLCT120314_13": {
+          "BuoiID": "LLCT120314_13",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Thị Phượng",
+          "HideID": "162LLCT120314_13$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "LLCT120314_14": {
+          "BuoiID": "LLCT120314_14",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Thái Ngọc Tăng",
+          "HideID": "162LLCT120314_14$2.00$162LLCT120314$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        }
+      },
+      "LLCT150105": {
+        "LLCT150105_01": {
+          "BuoiID": "LLCT150105_01",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Đoàn Đức Hiếu",
+          "HideID": "162LLCT150105_01$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_02": {
+          "BuoiID": "LLCT150105_02",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Đoàn Đức Hiếu",
+          "HideID": "162LLCT150105_02$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_03": {
+          "BuoiID": "LLCT150105_03",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Đoàn Đức Hiếu",
+          "HideID": "162LLCT150105_03$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_04": {
+          "BuoiID": "LLCT150105_04",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Đoàn Đức Hiếu",
+          "HideID": "162LLCT150105_04$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_05": {
+          "BuoiID": "LLCT150105_05",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Ngọc Chung",
+          "HideID": "162LLCT150105_05$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_06": {
+          "BuoiID": "LLCT150105_06",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Ngọc Chung",
+          "HideID": "162LLCT150105_06$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_07": {
+          "BuoiID": "LLCT150105_07",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Ngọc Chung",
+          "HideID": "162LLCT150105_07$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_08": {
+          "BuoiID": "LLCT150105_08",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Ngọc Chung",
+          "HideID": "162LLCT150105_08$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_09": {
+          "BuoiID": "LLCT150105_09",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Ngọc Chung",
+          "HideID": "162LLCT150105_09$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_10": {
+          "BuoiID": "LLCT150105_10",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Thùy",
+          "HideID": "162LLCT150105_10$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_11": {
+          "BuoiID": "LLCT150105_11",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Thùy",
+          "HideID": "162LLCT150105_11$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_12": {
+          "BuoiID": "LLCT150105_12",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Thùy",
+          "HideID": "162LLCT150105_12$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_13": {
+          "BuoiID": "LLCT150105_13",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Thùy",
+          "HideID": "162LLCT150105_13$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_14": {
+          "BuoiID": "LLCT150105_14",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Thùy",
+          "HideID": "162LLCT150105_14$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "LLCT150105_15": {
+          "BuoiID": "LLCT150105_15",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Văn Vĩ",
+          "HideID": "162LLCT150105_15$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "LLCT150105_16": {
+          "BuoiID": "LLCT150105_16",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Văn Vĩ",
+          "HideID": "162LLCT150105_16$5.00$162LLCT150105$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "LLCT230214": {
+        "LLCT230214_03": {
+          "BuoiID": "LLCT230214_03",
+          "BuoiThu": "4",
+          "DaDangKi": "37",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_03$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_04": {
+          "BuoiID": "LLCT230214_04",
+          "BuoiThu": "5",
+          "DaDangKi": "52",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_04$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_05": {
+          "BuoiID": "LLCT230214_05",
+          "BuoiThu": "3",
+          "DaDangKi": "76",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_05$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_06": {
+          "BuoiID": "LLCT230214_06",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_06$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_07": {
+          "BuoiID": "LLCT230214_07",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_07$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_08": {
+          "BuoiID": "LLCT230214_08",
+          "BuoiThu": "5",
+          "DaDangKi": "88",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_08$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_09": {
+          "BuoiID": "LLCT230214_09",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Quang Chung",
+          "HideID": "162LLCT230214_09$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_10": {
+          "BuoiID": "LLCT230214_10",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Đình Cả",
+          "HideID": "162LLCT230214_10$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_11": {
+          "BuoiID": "LLCT230214_11",
+          "BuoiThu": "3",
+          "DaDangKi": "101",
+          "GiaoVien": " Nguyễn Vinh Thắng",
+          "HideID": "162LLCT230214_11$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_12": {
+          "BuoiID": "LLCT230214_12",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Đình Cả",
+          "HideID": "162LLCT230214_12$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_13": {
+          "BuoiID": "LLCT230214_13",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Vinh Thắng",
+          "HideID": "162LLCT230214_13$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_14": {
+          "BuoiID": "LLCT230214_14",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Vinh Thắng",
+          "HideID": "162LLCT230214_14$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_15": {
+          "BuoiID": "LLCT230214_15",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Vinh Thắng",
+          "HideID": "162LLCT230214_15$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_16": {
+          "BuoiID": "LLCT230214_16",
+          "BuoiThu": "6",
+          "DaDangKi": "16",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_16$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_17": {
+          "BuoiID": "LLCT230214_17",
+          "BuoiThu": "6",
+          "DaDangKi": "39",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_17$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_18": {
+          "BuoiID": "LLCT230214_18",
+          "BuoiThu": "7",
+          "DaDangKi": "9",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_18$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_19": {
+          "BuoiID": "LLCT230214_19",
+          "BuoiThu": "7",
+          "DaDangKi": "11",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_19$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_20": {
+          "BuoiID": "LLCT230214_20",
+          "BuoiThu": "6",
+          "DaDangKi": "22",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_20$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_21": {
+          "BuoiID": "LLCT230214_21",
+          "BuoiThu": "7",
+          "DaDangKi": "11",
+          "GiaoVien": " Vũ Văn Quế",
+          "HideID": "162LLCT230214_21$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_22": {
+          "BuoiID": "LLCT230214_22",
+          "BuoiThu": "5",
+          "DaDangKi": "16",
+          "GiaoVien": " Hoàng Thị Mỹ Nhân",
+          "HideID": "162LLCT230214_22$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_23": {
+          "BuoiID": "LLCT230214_23",
+          "BuoiThu": "2",
+          "DaDangKi": "63",
+          "GiaoVien": " Hoàng Thị Mỹ Nhân",
+          "HideID": "162LLCT230214_23$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_24": {
+          "BuoiID": "LLCT230214_24",
+          "BuoiThu": "4",
+          "DaDangKi": "54",
+          "GiaoVien": " Hoàng Thị Mỹ Nhân",
+          "HideID": "162LLCT230214_24$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_25": {
+          "BuoiID": "LLCT230214_25",
+          "BuoiThu": "6",
+          "DaDangKi": "25",
+          "GiaoVien": " Hoàng Thị Mỹ Nhân",
+          "HideID": "162LLCT230214_25$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_26": {
+          "BuoiID": "LLCT230214_26",
+          "BuoiThu": "7",
+          "DaDangKi": "19",
+          "GiaoVien": " Nguyễn Hoàng Minh",
+          "HideID": "162LLCT230214_26$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_27": {
+          "BuoiID": "LLCT230214_27",
+          "BuoiThu": "7",
+          "DaDangKi": "12",
+          "GiaoVien": " Nguyễn Hoàng Minh",
+          "HideID": "162LLCT230214_27$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_28": {
+          "BuoiID": "LLCT230214_28",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Phùng Thế Anh",
+          "HideID": "162LLCT230214_28$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "LLCT230214_29": {
+          "BuoiID": "LLCT230214_29",
+          "BuoiThu": "6",
+          "DaDangKi": "15",
+          "GiaoVien": " Nguyễn Hoàng Minh",
+          "HideID": "162LLCT230214_29$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_30": {
+          "BuoiID": "LLCT230214_30",
+          "BuoiThu": "6",
+          "DaDangKi": "54",
+          "GiaoVien": " Nguyễn Hoàng Minh",
+          "HideID": "162LLCT230214_30$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "LLCT230214_31": {
+          "BuoiID": "LLCT230214_31",
+          "BuoiThu": "4",
+          "DaDangKi": "67",
+          "GiaoVien": " Nguyễn Hoàng Minh",
+          "HideID": "162LLCT230214_31$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "LLCT230214_32": {
+          "BuoiID": "LLCT230214_32",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Phùng Thế Anh",
+          "HideID": "162LLCT230214_32$3.00$162LLCT230214$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        }
+      },
+      "MATH130401": {
+        "MATH130401_01": {
+          "BuoiID": "MATH130401_01",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Văn Toản",
+          "HideID": "162MATH130401_01$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_02": {
+          "BuoiID": "MATH130401_02",
+          "BuoiThu": "4",
+          "DaDangKi": "10",
+          "GiaoVien": " Lê Quang Long",
+          "HideID": "162MATH130401_02$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_07": {
+          "BuoiID": "MATH130401_07",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Văn Toản",
+          "HideID": "162MATH130401_07$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_08": {
+          "BuoiID": "MATH130401_08",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Hoàng Thị Minh Thảo",
+          "HideID": "162MATH130401_08$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_09": {
+          "BuoiID": "MATH130401_09",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Hoàng Thị Minh Thảo",
+          "HideID": "162MATH130401_09$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_10": {
+          "BuoiID": "MATH130401_10",
+          "BuoiThu": "7",
+          "DaDangKi": "35",
+          "GiaoVien": " Hoàng Thị Minh Thảo",
+          "HideID": "162MATH130401_10$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "11"
+        },
+        "MATH130401_11": {
+          "BuoiID": "MATH130401_11",
+          "BuoiThu": "3",
+          "DaDangKi": "75",
+          "GiaoVien": " Hoàng Thị Minh Thảo",
+          "HideID": "162MATH130401_11$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_12": {
+          "BuoiID": "MATH130401_12",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Hồng Nhung",
+          "HideID": "162MATH130401_12$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_13": {
+          "BuoiID": "MATH130401_13",
+          "BuoiThu": "4",
+          "DaDangKi": "27",
+          "GiaoVien": " Vũ Quốc Huy",
+          "HideID": "162MATH130401_13$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_14": {
+          "BuoiID": "MATH130401_14",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Hạnh",
+          "HideID": "162MATH130401_14$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_15": {
+          "BuoiID": "MATH130401_15",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Hạnh",
+          "HideID": "162MATH130401_15$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_16": {
+          "BuoiID": "MATH130401_16",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Hạnh",
+          "HideID": "162MATH130401_16$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_17": {
+          "BuoiID": "MATH130401_17",
+          "BuoiThu": "7",
+          "DaDangKi": "78",
+          "GiaoVien": " Vũ Quốc Huy",
+          "HideID": "162MATH130401_17$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_18": {
+          "BuoiID": "MATH130401_18",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Mai Thị Thanh Huệ",
+          "HideID": "162MATH130401_18$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_19": {
+          "BuoiID": "MATH130401_19",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Văn Toản",
+          "HideID": "162MATH130401_19$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_20": {
+          "BuoiID": "MATH130401_20",
+          "BuoiThu": "3",
+          "DaDangKi": "82",
+          "GiaoVien": " Mai Thị Thanh Huệ",
+          "HideID": "162MATH130401_20$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_21": {
+          "BuoiID": "MATH130401_21",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Hạnh",
+          "HideID": "162MATH130401_21$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_22": {
+          "BuoiID": "MATH130401_22",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Văn Toản",
+          "HideID": "162MATH130401_22$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_23": {
+          "BuoiID": "MATH130401_23",
+          "BuoiThu": "5",
+          "DaDangKi": "67",
+          "GiaoVien": " Võ Thanh Tùng",
+          "HideID": "162MATH130401_23$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_24": {
+          "BuoiID": "MATH130401_24",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Thị Mai Trang",
+          "HideID": "162MATH130401_24$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_25": {
+          "BuoiID": "MATH130401_25",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Văn Toản",
+          "HideID": "162MATH130401_25$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_26": {
+          "BuoiID": "MATH130401_26",
+          "BuoiThu": "6",
+          "DaDangKi": "61",
+          "GiaoVien": " Võ Thanh Tùng",
+          "HideID": "162MATH130401_26$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_27": {
+          "BuoiID": "MATH130401_27",
+          "BuoiThu": "6",
+          "DaDangKi": "76",
+          "GiaoVien": " Võ Thanh Tùng",
+          "HideID": "162MATH130401_27$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_28": {
+          "BuoiID": "MATH130401_28",
+          "BuoiThu": "4",
+          "DaDangKi": "106",
+          "GiaoVien": " Lê Thị Mai Trang",
+          "HideID": "162MATH130401_28$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_29": {
+          "BuoiID": "MATH130401_29",
+          "BuoiThu": "5",
+          "DaDangKi": "99",
+          "GiaoVien": " Võ Thanh Tùng",
+          "HideID": "162MATH130401_29$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_30": {
+          "BuoiID": "MATH130401_30",
+          "BuoiThu": "3",
+          "DaDangKi": "84",
+          "GiaoVien": " Đinh Nguyễn Anh Trung",
+          "HideID": "162MATH130401_30$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130401_31": {
+          "BuoiID": "MATH130401_31",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Hồng Nhung",
+          "HideID": "162MATH130401_31$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "MATH130401_32": {
+          "BuoiID": "MATH130401_32",
+          "BuoiThu": "4",
+          "DaDangKi": "62",
+          "GiaoVien": " Phạm Văn Hiển",
+          "HideID": "162MATH130401_32$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "MATH130401_33": {
+          "BuoiID": "MATH130401_33",
+          "BuoiThu": "4",
+          "DaDangKi": "70",
+          "GiaoVien": " Phạm Văn Hiển",
+          "HideID": "162MATH130401_33$3.00$162MATH130401$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "MATH130701": {
+        "MATH130701_01": {
+          "BuoiID": "MATH130701_01",
+          "BuoiThu": "6",
+          "DaDangKi": "88",
+          "GiaoVien": " Hoàng Nguyên Lý",
+          "HideID": "162MATH130701_01$3.00$162MATH130701$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "MATH130701_02": {
+          "BuoiID": "MATH130701_02",
+          "BuoiThu": "2",
+          "DaDangKi": "83",
+          "GiaoVien": " Hoàng Nguyên Lý",
+          "HideID": "162MATH130701_02$3.00$162MATH130701$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        }
+      },
+      "MATH141401": {
+        "MATH141401_01": {
+          "BuoiID": "MATH141401_01",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Bành Đức Dũng",
+          "HideID": "162MATH1414011_01$4.00$162MATH1414011$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "MISY430684": {
+        "MISY430684_01": {
+          "BuoiID": "MISY430684_01",
+          "BuoiThu": "4",
+          "DaDangKi": "21",
+          "GiaoVien": " Hoàng Long",
+          "HideID": "162MISY430684_01$3.00$162MISY430684$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        }
+      },
+      "MOPR331279": {
+        "MOPR331279_01": {
+          "BuoiID": "MOPR331279_01",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Trương Thị Ngọc Phượng",
+          "HideID": "162MOPR331279_01$3.00$162MOPR331279$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        },
+        "MOPR331279_02": {
+          "BuoiID": "MOPR331279_02",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Trương Thị Ngọc Phượng",
+          "HideID": "162MOPR331279_02$3.00$162MOPR331279$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "MOPR331279_03": {
+          "BuoiID": "MOPR331279_03",
+          "BuoiThu": "6",
+          "DaDangKi": "59",
+          "GiaoVien": " Trương Thị Ngọc Phượng",
+          "HideID": "162MOPR331279_03$3.00$162MOPR331279$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "NMSY331180": {
+        "NMSY331180_01": {
+          "BuoiID": "NMSY331180_01",
+          "BuoiThu": "3",
+          "DaDangKi": "44",
+          "GiaoVien": " Huỳnh Nguyên Chính",
+          "HideID": "162NMSY331180_01$3.00$162NMSY331180$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "OOSD330879": {
+        "OOSD330879_01": {
+          "BuoiID": "OOSD330879_01",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Trần Thi Văn",
+          "HideID": "162OOSD330879_01$3.00$162OOSD330879$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        },
+        "OOSD330879_02": {
+          "BuoiID": "OOSD330879_02",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Trần Thi Văn",
+          "HideID": "162OOSD330879_02$3.00$162OOSD330879$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "4"
+        }
+      },
+      "OPSY340280": {
+        "OPSY340280_06": {
+          "BuoiID": "OPSY340280_06",
+          "BuoiThu": "6",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Trần Thi Văn",
+          "HideID": "162OPSY340280_06$4.00$162OPSY340280$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "PHED110513": {
+        "PHED110513_01": {
+          "BuoiID": "PHED110513_01",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_01$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110513_02": {
+          "BuoiID": "PHED110513_02",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_02$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110513_03": {
+          "BuoiID": "PHED110513_03",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_03$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110513_04": {
+          "BuoiID": "PHED110513_04",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_04$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110513_05": {
+          "BuoiID": "PHED110513_05",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_05$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        },
+        "PHED110513_06": {
+          "BuoiID": "PHED110513_06",
+          "BuoiThu": "3",
+          "DaDangKi": "54",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED110513_06$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110513_07": {
+          "BuoiID": "PHED110513_07",
+          "BuoiThu": "4",
+          "DaDangKi": "58",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED110513_07$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHED110513_08": {
+          "BuoiID": "PHED110513_08",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED110513_08$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHED110513_09": {
+          "BuoiID": "PHED110513_09",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED110513_09$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110513_10": {
+          "BuoiID": "PHED110513_10",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED110513_10$1.00$162PHED110513$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        }
+      },
+      "PHED110613": {
+        "PHED110613_01": {
+          "BuoiID": "PHED110613_01",
+          "BuoiThu": "3",
+          "DaDangKi": "58",
+          "GiaoVien": " Nguyễn Văn Quận",
+          "HideID": "162PHED110613_01$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_02": {
+          "BuoiID": "PHED110613_02",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Văn Quận",
+          "HideID": "162PHED110613_02$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHED110613_03": {
+          "BuoiID": "PHED110613_03",
+          "BuoiThu": "6",
+          "DaDangKi": "58",
+          "GiaoVien": " Nguyễn Văn Quận",
+          "HideID": "162PHED110613_03$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_04": {
+          "BuoiID": "PHED110613_04",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED110613_04$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        },
+        "PHED110613_05": {
+          "BuoiID": "PHED110613_05",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_05$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_06": {
+          "BuoiID": "PHED110613_06",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_06$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_07": {
+          "BuoiID": "PHED110613_07",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_07$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_08": {
+          "BuoiID": "PHED110613_08",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_08$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_09": {
+          "BuoiID": "PHED110613_09",
+          "BuoiThu": "4",
+          "DaDangKi": "58",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_09$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_10": {
+          "BuoiID": "PHED110613_10",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_10$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_11": {
+          "BuoiID": "PHED110613_11",
+          "BuoiThu": "5",
+          "DaDangKi": "71",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_11$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_12": {
+          "BuoiID": "PHED110613_12",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_12$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        },
+        "PHED110613_13": {
+          "BuoiID": "PHED110613_13",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_13$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHED110613_14": {
+          "BuoiID": "PHED110613_14",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_14$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_15": {
+          "BuoiID": "PHED110613_15",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_15$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_16": {
+          "BuoiID": "PHED110613_16",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_16$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_17": {
+          "BuoiID": "PHED110613_17",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_17$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_18": {
+          "BuoiID": "PHED110613_18",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_18$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHED110613_19": {
+          "BuoiID": "PHED110613_19",
+          "BuoiThu": "5",
+          "DaDangKi": "72",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_19$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHED110613_20": {
+          "BuoiID": "PHED110613_20",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_20$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_21": {
+          "BuoiID": "PHED110613_21",
+          "BuoiThu": "2",
+          "DaDangKi": "63",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_21$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_22": {
+          "BuoiID": "PHED110613_22",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_22$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHED110613_23": {
+          "BuoiID": "PHED110613_23",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_23$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_24": {
+          "BuoiID": "PHED110613_24",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_24$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHED110613_25": {
+          "BuoiID": "PHED110613_25",
+          "BuoiThu": "2",
+          "DaDangKi": "52",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_25$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHED110613_26": {
+          "BuoiID": "PHED110613_26",
+          "BuoiThu": "3",
+          "DaDangKi": "59",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_26$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_27": {
+          "BuoiID": "PHED110613_27",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_27$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_28": {
+          "BuoiID": "PHED110613_28",
+          "BuoiThu": "5",
+          "DaDangKi": "66",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_28$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_29": {
+          "BuoiID": "PHED110613_29",
+          "BuoiThu": "4",
+          "DaDangKi": "58",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_29$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_30": {
+          "BuoiID": "PHED110613_30",
+          "BuoiThu": "2",
+          "DaDangKi": "65",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_30$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_31": {
+          "BuoiID": "PHED110613_31",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED110613_31$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_32": {
+          "BuoiID": "PHED110613_32",
+          "BuoiThu": "6",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED110613_32$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_33": {
+          "BuoiID": "PHED110613_33",
+          "BuoiThu": "2",
+          "DaDangKi": "54",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED110613_33$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_34": {
+          "BuoiID": "PHED110613_34",
+          "BuoiThu": "5",
+          "DaDangKi": "51",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_34$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHED110613_35": {
+          "BuoiID": "PHED110613_35",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_35$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_36": {
+          "BuoiID": "PHED110613_36",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_36$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_37": {
+          "BuoiID": "PHED110613_37",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED110613_37$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_38": {
+          "BuoiID": "PHED110613_38",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_38$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_39": {
+          "BuoiID": "PHED110613_39",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED110613_39$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHED110613_64": {
+          "BuoiID": "PHED110613_64",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED110613_64$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PHED110613_65": {
+          "BuoiID": "PHED110613_65",
+          "BuoiThu": "5",
+          "DaDangKi": "66",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED110613_65$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "PHED110613_66": {
+          "BuoiID": "PHED110613_66",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED110613_66$1.00$162PHED110613$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        }
+      },
+      "PHED130715": {
+        "PHED130715_01": {
+          "BuoiID": "PHED130715_01",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Phong Vinh",
+          "HideID": "162PHED130715_01$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHED130715_02": {
+          "BuoiID": "PHED130715_02",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Văn Quận",
+          "HideID": "162PHED130715_02$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHED130715_03": {
+          "BuoiID": "PHED130715_03",
+          "BuoiThu": "5",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Văn Quận",
+          "HideID": "162PHED130715_03$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "PHED130715_04": {
+          "BuoiID": "PHED130715_04",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED130715_04$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "PHED130715_05": {
+          "BuoiID": "PHED130715_05",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Lưu Thanh Phương",
+          "HideID": "162PHED130715_05$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "10"
+        },
+        "PHED130715_06": {
+          "BuoiID": "PHED130715_06",
+          "BuoiThu": "4",
+          "DaDangKi": "50",
+          "GiaoVien": " Phạm Đức Hậu",
+          "HideID": "162PHED130715_06$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "PHED130715_07": {
+          "BuoiID": "PHED130715_07",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Hùng Anh",
+          "HideID": "162PHED130715_07$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "10"
+        },
+        "PHED130715_08": {
+          "BuoiID": "PHED130715_08",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Trần Văn Tuyền",
+          "HideID": "162PHED130715_08$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "10"
+        },
+        "PHED130715_09": {
+          "BuoiID": "PHED130715_09",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Đỗ Hoàng Long",
+          "HideID": "162PHED130715_09$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHED130715_10": {
+          "BuoiID": "PHED130715_10",
+          "BuoiThu": "3",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED130715_10$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "9",
+          "TietKetThuc": "11"
+        },
+        "PHED130715_11": {
+          "BuoiID": "PHED130715_11",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Thanh Bình",
+          "HideID": "162PHED130715_11$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "PHED130715_12": {
+          "BuoiID": "PHED130715_12",
+          "BuoiThu": "2",
+          "DaDangKi": "50",
+          "GiaoVien": " Nguyễn Đức Thành",
+          "HideID": "162PHED130715_12$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHED130715_13": {
+          "BuoiID": "PHED130715_13",
+          "BuoiThu": "2",
+          "DaDangKi": "49",
+          "GiaoVien": " Lê Minh Hoàng",
+          "HideID": "162PHED130715_13$3.00$162PHED130715$1$0",
+          "SiSo": "10-50",
+          "TietBatDau": "8",
+          "TietKetThuc": "10"
+        }
+      },
+      "PHYS110302": {
+        "PHYS110302_01": {
+          "BuoiID": "PHYS110302_01",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Lê Thị Thu Hà",
+          "HideID": "162PHYS110302_01$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_03": {
+          "BuoiID": "PHYS110302_03",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Lê Thị Thu Hà",
+          "HideID": "162PHYS110302_03$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_04": {
+          "BuoiID": "PHYS110302_04",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Lê Thị Thu Hà",
+          "HideID": "162PHYS110302_04$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_07": {
+          "BuoiID": "PHYS110302_07",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Lê Thị Thu Hà",
+          "HideID": "162PHYS110302_07$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_08": {
+          "BuoiID": "PHYS110302_08",
+          "BuoiThu": "2",
+          "DaDangKi": "30",
+          "GiaoVien": " Nguyễn Ngọc Trường",
+          "HideID": "162PHYS110302_08$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_09": {
+          "BuoiID": "PHYS110302_09",
+          "BuoiThu": "2",
+          "DaDangKi": "30",
+          "GiaoVien": " Nguyễn Ngọc Trường",
+          "HideID": "162PHYS110302_09$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_10": {
+          "BuoiID": "PHYS110302_10",
+          "BuoiThu": "2",
+          "DaDangKi": "31",
+          "GiaoVien": " Nguyễn Ngọc Trường",
+          "HideID": "162PHYS110302_10$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_11": {
+          "BuoiID": "PHYS110302_11",
+          "BuoiThu": "2",
+          "DaDangKi": "30",
+          "GiaoVien": " Nguyễn Ngọc Trường",
+          "HideID": "162PHYS110302_11$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_12": {
+          "BuoiID": "PHYS110302_12",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Võ Minh Triết",
+          "HideID": "162PHYS110302_12$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_13": {
+          "BuoiID": "PHYS110302_13",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Võ Minh Triết",
+          "HideID": "162PHYS110302_13$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_14": {
+          "BuoiID": "PHYS110302_14",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Võ Minh Triết",
+          "HideID": "162PHYS110302_14$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_15": {
+          "BuoiID": "PHYS110302_15",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Võ Minh Triết",
+          "HideID": "162PHYS110302_15$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_16": {
+          "BuoiID": "PHYS110302_16",
+          "BuoiThu": "6",
+          "DaDangKi": "30",
+          "GiaoVien": " Phan Thị Thùy Giang",
+          "HideID": "162PHYS110302_16$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_17": {
+          "BuoiID": "PHYS110302_17",
+          "BuoiThu": "6",
+          "DaDangKi": "30",
+          "GiaoVien": " Phan Thị Thùy Giang",
+          "HideID": "162PHYS110302_17$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_18": {
+          "BuoiID": "PHYS110302_18",
+          "BuoiThu": "6",
+          "DaDangKi": "30",
+          "GiaoVien": " Phan Thị Thùy Giang",
+          "HideID": "162PHYS110302_18$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_19": {
+          "BuoiID": "PHYS110302_19",
+          "BuoiThu": "6",
+          "DaDangKi": "30",
+          "GiaoVien": " Phan Thị Thùy Giang",
+          "HideID": "162PHYS110302_19$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_20": {
+          "BuoiID": "PHYS110302_20",
+          "BuoiThu": "4",
+          "DaDangKi": "30",
+          "GiaoVien": " Trương Thị Linh Châu",
+          "HideID": "162PHYS110302_20$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_21": {
+          "BuoiID": "PHYS110302_21",
+          "BuoiThu": "4",
+          "DaDangKi": "30",
+          "GiaoVien": " Trương Thị Linh Châu",
+          "HideID": "162PHYS110302_21$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_22": {
+          "BuoiID": "PHYS110302_22",
+          "BuoiThu": "4",
+          "DaDangKi": "30",
+          "GiaoVien": " Trương Thị Linh Châu",
+          "HideID": "162PHYS110302_22$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_23": {
+          "BuoiID": "PHYS110302_23",
+          "BuoiThu": "4",
+          "DaDangKi": "30",
+          "GiaoVien": " Trương Thị Linh Châu",
+          "HideID": "162PHYS110302_23$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_24": {
+          "BuoiID": "PHYS110302_24",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Mã Thúy Quang",
+          "HideID": "162PHYS110302_24$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_25": {
+          "BuoiID": "PHYS110302_25",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Mã Thúy Quang",
+          "HideID": "162PHYS110302_25$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_26": {
+          "BuoiID": "PHYS110302_26",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Mã Thúy Quang",
+          "HideID": "162PHYS110302_26$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_27": {
+          "BuoiID": "PHYS110302_27",
+          "BuoiThu": "5",
+          "DaDangKi": "30",
+          "GiaoVien": " Mã Thúy Quang",
+          "HideID": "162PHYS110302_27$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS110302_28": {
+          "BuoiID": "PHYS110302_28",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Thạch Trung",
+          "HideID": "162PHYS110302_28$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PHYS110302_29": {
+          "BuoiID": "PHYS110302_29",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Thạch Trung",
+          "HideID": "162PHYS110302_29$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS110302_30": {
+          "BuoiID": "PHYS110302_30",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Thạch Trung",
+          "HideID": "162PHYS110302_30$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS110302_31": {
+          "BuoiID": "PHYS110302_31",
+          "BuoiThu": "3",
+          "DaDangKi": "30",
+          "GiaoVien": " Thạch Trung",
+          "HideID": "162PHYS110302_31$1.00$162PHYS110302$2$0",
+          "SiSo": "10-30",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        }
+      },
+      "PHYS120202": {
+        "PHYS120202_01": {
+          "BuoiID": "PHYS120202_01",
+          "BuoiThu": "7",
+          "DaDangKi": "27",
+          "GiaoVien": " Lê Sơn Hải",
+          "HideID": "162PHYS120202_01$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_02": {
+          "BuoiID": "PHYS120202_02",
+          "BuoiThu": "3",
+          "DaDangKi": "99",
+          "GiaoVien": " Huỳnh Quang Chiến",
+          "HideID": "162PHYS120202_02$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHYS120202_03": {
+          "BuoiID": "PHYS120202_03",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Quang Chiến",
+          "HideID": "162PHYS120202_03$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHYS120202_04": {
+          "BuoiID": "PHYS120202_04",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Quang Chiến",
+          "HideID": "162PHYS120202_04$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_05": {
+          "BuoiID": "PHYS120202_05",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Võ Thanh Tân",
+          "HideID": "162PHYS120202_05$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PHYS120202_06": {
+          "BuoiID": "PHYS120202_06",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Quang Chiến",
+          "HideID": "162PHYS120202_06$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_07": {
+          "BuoiID": "PHYS120202_07",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Võ Thanh Tân",
+          "HideID": "162PHYS120202_07$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PHYS120202_08": {
+          "BuoiID": "PHYS120202_08",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Cao Thị Mỹ Dung",
+          "HideID": "162PHYS120202_08$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PHYS120202_09": {
+          "BuoiID": "PHYS120202_09",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Võ Thanh Tân",
+          "HideID": "162PHYS120202_09$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_10": {
+          "BuoiID": "PHYS120202_10",
+          "BuoiThu": "2",
+          "DaDangKi": "108",
+          "GiaoVien": " Võ Thanh Tân",
+          "HideID": "162PHYS120202_10$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_11": {
+          "BuoiID": "PHYS120202_11",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Cao Thị Mỹ Dung",
+          "HideID": "162PHYS120202_11$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS120202_12": {
+          "BuoiID": "PHYS120202_12",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Phước Lân",
+          "HideID": "162PHYS120202_12$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS120202_13": {
+          "BuoiID": "PHYS120202_13",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Đỗ Quốc Huy",
+          "HideID": "162PHYS120202_13$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_14": {
+          "BuoiID": "PHYS120202_14",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Quang Chiến",
+          "HideID": "162PHYS120202_14$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PHYS120202_15": {
+          "BuoiID": "PHYS120202_15",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Phước Lân",
+          "HideID": "162PHYS120202_15$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_16": {
+          "BuoiID": "PHYS120202_16",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Hoàng Trung",
+          "HideID": "162PHYS120202_16$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PHYS120202_18": {
+          "BuoiID": "PHYS120202_18",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thiện Huân",
+          "HideID": "162PHYS120202_18$2.00$162PHYS120202$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        }
+      },
+      "PHYS130102": {
+        "PHYS130102_01": {
+          "BuoiID": "PHYS130102_01",
+          "BuoiThu": "2",
+          "DaDangKi": "100",
+          "GiaoVien": " Bùi Tấn Phúc",
+          "HideID": "162PHYS130102_01$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_02": {
+          "BuoiID": "PHYS130102_02",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Phan Thị Thùy Giang",
+          "HideID": "162PHYS130102_02$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_03": {
+          "BuoiID": "PHYS130102_03",
+          "BuoiThu": "7",
+          "DaDangKi": "15",
+          "GiaoVien": " Lê Sơn Hải",
+          "HideID": "162PHYS130102_03$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_04": {
+          "BuoiID": "PHYS130102_04",
+          "BuoiThu": "7",
+          "DaDangKi": "47",
+          "GiaoVien": " Huỳnh Hoàng Trung",
+          "HideID": "162PHYS130102_04$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "8",
+          "TietKetThuc": "10"
+        },
+        "PHYS130102_10": {
+          "BuoiID": "PHYS130102_10",
+          "BuoiThu": "7",
+          "DaDangKi": "100",
+          "GiaoVien": " Huỳnh Hoàng Trung",
+          "HideID": "162PHYS130102_10$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_11": {
+          "BuoiID": "PHYS130102_11",
+          "BuoiThu": "7",
+          "DaDangKi": "99",
+          "GiaoVien": " Lê Sơn Hải",
+          "HideID": "162PHYS130102_11$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PHYS130102_12": {
+          "BuoiID": "PHYS130102_12",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thiện Huân",
+          "HideID": "162PHYS130102_12$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_13": {
+          "BuoiID": "PHYS130102_13",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Nguyễn Bảo Thư",
+          "HideID": "162PHYS130102_13$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "PHYS130102_14": {
+          "BuoiID": "PHYS130102_14",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Kiều Hạnh",
+          "HideID": "162PHYS130102_14$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PHYS130102_15": {
+          "BuoiID": "PHYS130102_15",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Nguyễn Bảo Thư",
+          "HideID": "162PHYS130102_15$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PHYS130102_16": {
+          "BuoiID": "PHYS130102_16",
+          "BuoiThu": "5",
+          "DaDangKi": "100",
+          "GiaoVien": " Nguyễn Phước Lân",
+          "HideID": "162PHYS130102_16$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "9",
+          "TietKetThuc": "11"
+        },
+        "PHYS130102_17": {
+          "BuoiID": "PHYS130102_17",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Khánh Chi",
+          "HideID": "162PHYS130102_17$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_18": {
+          "BuoiID": "PHYS130102_18",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Trần Thị Khánh Chi",
+          "HideID": "162PHYS130102_18$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PHYS130102_19": {
+          "BuoiID": "PHYS130102_19",
+          "BuoiThu": "6",
+          "DaDangKi": "100",
+          "GiaoVien": " Tạ Thị Kiều Hạnh",
+          "HideID": "162PHYS130102_19$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "PHYS130102_20": {
+          "BuoiID": "PHYS130102_20",
+          "BuoiThu": "3",
+          "DaDangKi": "100",
+          "GiaoVien": " Lê Trấn",
+          "HideID": "162PHYS130102_20$3.00$162PHYS130102$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        }
+      },
+      "PLSK320605": {
+        "PLSK320605_07": {
+          "BuoiID": "PLSK320605_07",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thị Phương Hoa",
+          "HideID": "162PLSK320605_07$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        },
+        "PLSK320605_08": {
+          "BuoiID": "PLSK320605_08",
+          "BuoiThu": "3",
+          "DaDangKi": "37",
+          "GiaoVien": " Đặng Thị Diệu Hiền",
+          "HideID": "162PLSK320605_08$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "PLSK320605_10": {
+          "BuoiID": "PLSK320605_10",
+          "BuoiThu": "3",
+          "DaDangKi": "52",
+          "GiaoVien": " Đặng Thị Diệu Hiền",
+          "HideID": "162PLSK320605_10$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "PLSK320605_12": {
+          "BuoiID": "PLSK320605_12",
+          "BuoiThu": "5",
+          "DaDangKi": "58",
+          "GiaoVien": " Nguyễn Như Khương",
+          "HideID": "162PLSK320605_12$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "8",
+          "TietKetThuc": "9"
+        },
+        "PLSK320605_15": {
+          "BuoiID": "PLSK320605_15",
+          "BuoiThu": "3",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Như Khương",
+          "HideID": "162PLSK320605_15$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "4",
+          "TietKetThuc": "5"
+        },
+        "PLSK320605_16": {
+          "BuoiID": "PLSK320605_16",
+          "BuoiThu": "5",
+          "DaDangKi": "85",
+          "GiaoVien": " Nguyễn Như Khương",
+          "HideID": "162PLSK320605_16$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        },
+        "PLSK320605_19": {
+          "BuoiID": "PLSK320605_19",
+          "BuoiThu": "3",
+          "DaDangKi": "59",
+          "GiaoVien": " Nguyễn Như Khương",
+          "HideID": "162PLSK320605_19$2.00$162PLSK320605$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "2",
+          "TietKetThuc": "3"
+        }
+      },
+      "PRBE214262": {
+        "PRBE214262_01": {
+          "BuoiID": "PRBE214262_01",
+          "BuoiThu": "2",
+          "DaDangKi": "17",
+          "GiaoVien": " Vũ Thị Ngọc Thu",
+          "HideID": "162PRBE214262_01$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_02": {
+          "BuoiID": "PRBE214262_02",
+          "BuoiThu": "2",
+          "DaDangKi": "25",
+          "GiaoVien": " Bùi Thị Tuyết Đan",
+          "HideID": "162PRBE214262_02$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_03": {
+          "BuoiID": "PRBE214262_03",
+          "BuoiThu": "2",
+          "DaDangKi": "21",
+          "GiaoVien": " Lê Hoàng Minh",
+          "HideID": "162PRBE214262_03$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_04": {
+          "BuoiID": "PRBE214262_04",
+          "BuoiThu": "2",
+          "DaDangKi": "19",
+          "GiaoVien": " Dương Thị Cẩm Tú",
+          "HideID": "162PRBE214262_04$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_05": {
+          "BuoiID": "PRBE214262_05",
+          "BuoiThu": "2",
+          "DaDangKi": "23",
+          "GiaoVien": " Vũ Thị Ngọc Thu",
+          "HideID": "162PRBE214262_05$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_06": {
+          "BuoiID": "PRBE214262_06",
+          "BuoiThu": "2",
+          "DaDangKi": "25",
+          "GiaoVien": " Bùi Thị Tuyết Đan",
+          "HideID": "162PRBE214262_06$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_07": {
+          "BuoiID": "PRBE214262_07",
+          "BuoiThu": "2",
+          "DaDangKi": "23",
+          "GiaoVien": " Lê Hoàng Minh",
+          "HideID": "162PRBE214262_07$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_08": {
+          "BuoiID": "PRBE214262_08",
+          "BuoiThu": "2",
+          "DaDangKi": "24",
+          "GiaoVien": " Dương Thị Cẩm Tú",
+          "HideID": "162PRBE214262_08$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRBE214262_09": {
+          "BuoiID": "PRBE214262_09",
+          "BuoiThu": "6",
+          "DaDangKi": "26",
+          "GiaoVien": " Bùi Văn Hồng",
+          "HideID": "162PRBE214262_09$1.00$162PRBE214262$2$0",
+          "SiSo": "10-25",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        }
+      },
+      "PRSK320705": {
+        "PRSK320705_08": {
+          "BuoiID": "PRSK320705_08",
+          "BuoiThu": "4",
+          "DaDangKi": "92",
+          "GiaoVien": " Nguyễn Phương Thúy",
+          "HideID": "162PRSK320705_08$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PRSK320705_09": {
+          "BuoiID": "PRSK320705_09",
+          "BuoiThu": "3",
+          "DaDangKi": "76",
+          "GiaoVien": " Nguyễn Phương Thúy",
+          "HideID": "162PRSK320705_09$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PRSK320705_10": {
+          "BuoiID": "PRSK320705_10",
+          "BuoiThu": "5",
+          "DaDangKi": "57",
+          "GiaoVien": " Nguyễn Quốc Khánh",
+          "HideID": "162PRSK320705_10$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "9"
+        },
+        "PRSK320705_11": {
+          "BuoiID": "PRSK320705_11",
+          "BuoiThu": "7",
+          "DaDangKi": "24",
+          "GiaoVien": " Nguyễn Thị Châu Long",
+          "HideID": "162PRSK320705_11$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "12"
+        },
+        "PRSK320705_13": {
+          "BuoiID": "PRSK320705_13",
+          "BuoiThu": "7",
+          "DaDangKi": "66",
+          "GiaoVien": " Nguyễn Thị Châu Long",
+          "HideID": "162PRSK320705_13$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PRSK320705_14": {
+          "BuoiID": "PRSK320705_14",
+          "BuoiThu": "3",
+          "DaDangKi": "43",
+          "GiaoVien": " Nguyễn Quốc Khánh",
+          "HideID": "162PRSK320705_14$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "1",
+          "TietKetThuc": "3"
+        },
+        "PRSK320705_15": {
+          "BuoiID": "PRSK320705_15",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Hà Nguyễn Minh Quân",
+          "HideID": "162PRSK320705_15$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "PRSK320705_16": {
+          "BuoiID": "PRSK320705_16",
+          "BuoiThu": "4",
+          "DaDangKi": "100",
+          "GiaoVien": " Hà Nguyễn Minh Quân",
+          "HideID": "162PRSK320705_16$2.00$162PRSK320705$1$0",
+          "SiSo": "10-100",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        }
+      },
+      "PRTE240385": {
+        "PRTE240385_01": {
+          "BuoiID": "PRTE240385_01",
+          "BuoiThu": "7",
+          "DaDangKi": "66",
+          "GiaoVien": " Nguyễn Thiên Bảo",
+          "HideID": "162PRTE240385_01$4.00$162PRTE240385$1$0",
+          "SiSo": "10-65",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRTE240385_02": {
+          "BuoiID": "PRTE240385_02",
+          "BuoiThu": "4",
+          "DaDangKi": "65",
+          "GiaoVien": " Nguyễn Thiên Bảo",
+          "HideID": "162PRTE240385_02$4.00$162PRTE240385$1$0",
+          "SiSo": "10-65",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRTE240385_09": {
+          "BuoiID": "PRTE240385_09",
+          "BuoiThu": "6",
+          "DaDangKi": "65",
+          "GiaoVien": " Nguyễn Thiên Bảo",
+          "HideID": "162PRTE240385_09$4.00$162PRTE240385$1$0",
+          "SiSo": "10-65",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "PRTE240385_10": {
+          "BuoiID": "PRTE240385_10",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thiên Bảo",
+          "HideID": "162PRTE240385_10$4.00$162PRTE240385$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        }
+      },
+      "SOEN340679": {
+        "SOEN340679_01": {
+          "BuoiID": "SOEN340679_01",
+          "BuoiThu": "2",
+          "DaDangKi": "32",
+          "GiaoVien": " Mai Tuấn Khôi",
+          "HideID": "162SOEN340679_01$4.00$162SOEN340679$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        }
+      },
+      "SYTH220505": {
+        "SYTH220505_01": {
+          "BuoiID": "SYTH220505_01",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Dương Thị Kim Oanh",
+          "HideID": "162SYTH220505_01$2.00$162SYTH220505$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "3",
+          "TietKetThuc": "4"
+        },
+        "SYTH220505_02": {
+          "BuoiID": "SYTH220505_02",
+          "BuoiThu": "4",
+          "DaDangKi": "53",
+          "GiaoVien": " Dương Thị Kim Oanh",
+          "HideID": "162SYTH220505_02$2.00$162SYTH220505$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "SYTH220505_03": {
+          "BuoiID": "SYTH220505_03",
+          "BuoiThu": "3",
+          "DaDangKi": "70",
+          "GiaoVien": " Dương Thị Kim Oanh",
+          "HideID": "162SYTH220505_03$2.00$162SYTH220505$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "SYTH220505_04": {
+          "BuoiID": "SYTH220505_04",
+          "BuoiThu": "3",
+          "DaDangKi": "69",
+          "GiaoVien": " Dương Thị Kim Oanh",
+          "HideID": "162SYTH220505_04$2.00$162SYTH220505$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "9",
+          "TietKetThuc": "10"
+        }
+      },
+      "TDTS320805": {
+        "TDTS320805_01": {
+          "BuoiID": "TDTS320805_01",
+          "BuoiThu": "6",
+          "DaDangKi": "40",
+          "GiaoVien": " Bùi Thu Anh",
+          "HideID": "162TDTS320805_01$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "TDTS320805_02": {
+          "BuoiID": "TDTS320805_02",
+          "BuoiThu": "5",
+          "DaDangKi": "41",
+          "GiaoVien": " Bùi Thu Anh",
+          "HideID": "162TDTS320805_02$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "TDTS320805_03": {
+          "BuoiID": "TDTS320805_03",
+          "BuoiThu": "7",
+          "DaDangKi": "49",
+          "GiaoVien": " Bùi Thu Anh",
+          "HideID": "162TDTS320805_03$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "3",
+          "TietKetThuc": "5"
+        },
+        "TDTS320805_04": {
+          "BuoiID": "TDTS320805_04",
+          "BuoiThu": "7",
+          "DaDangKi": "56",
+          "GiaoVien": " Hà Nguyễn Minh Quân",
+          "HideID": "162TDTS320805_04$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "TDTS320805_05": {
+          "BuoiID": "TDTS320805_05",
+          "BuoiThu": "6",
+          "DaDangKi": "42",
+          "GiaoVien": " Hà Nguyễn Minh Quân",
+          "HideID": "162TDTS320805_05$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "11",
+          "TietKetThuc": "12"
+        },
+        "TDTS320805_06": {
+          "BuoiID": "TDTS320805_06",
+          "BuoiThu": "7",
+          "DaDangKi": "40",
+          "GiaoVien": " Hà Nguyễn Minh Quân",
+          "HideID": "162TDTS320805_06$2.00$162TDTS320805$1$0",
+          "SiSo": "10-40",
+          "TietBatDau": "10",
+          "TietKetThuc": "11"
+        }
+      },
+      "ULTE121105": {
+        "ULTE121105_01": {
+          "BuoiID": "ULTE121105_01",
+          "BuoiThu": "5",
+          "DaDangKi": "60",
+          "GiaoVien": " Võ Đình Dương",
+          "HideID": "162ULTE121105_01$2.00$162ULTE121105$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "ULTE121105_02": {
+          "BuoiID": "ULTE121105_02",
+          "BuoiThu": "5",
+          "DaDangKi": "87",
+          "GiaoVien": " Võ Đình Dương",
+          "HideID": "162ULTE121105_02$2.00$162ULTE121105$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "ULTE121105_04": {
+          "BuoiID": "ULTE121105_04",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Võ Đình Dương",
+          "HideID": "162ULTE121105_04$2.00$162ULTE121105$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        },
+        "ULTE121105_07": {
+          "BuoiID": "ULTE121105_07",
+          "BuoiThu": "5",
+          "DaDangKi": "130",
+          "GiaoVien": " Nguyễn Thị Phương Hoa",
+          "HideID": "162ULTE121105_07$2.00$162ULTE121105$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "8"
+        },
+        "ULTE121105_08": {
+          "BuoiID": "ULTE121105_08",
+          "BuoiThu": "3",
+          "DaDangKi": "77",
+          "GiaoVien": " Nguyễn Thị Phương Hoa",
+          "HideID": "162ULTE121105_08$2.00$162ULTE121105$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "1",
+          "TietKetThuc": "2"
+        }
+      },
+      "UNOS330680": {
+        "UNOS330680_01": {
+          "BuoiID": "UNOS330680_01",
+          "BuoiThu": "7",
+          "DaDangKi": "60",
+          "GiaoVien": " Nguyễn Thị Thanh Vân",
+          "HideID": "162UNOS330680_01$3.00$162UNOS330680$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "WESE431479": {
+        "WESE431479_01": {
+          "BuoiID": "WESE431479_01",
+          "BuoiThu": "4",
+          "DaDangKi": "60",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162WESE431479_01$3.00$162WESE431479$1$1",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        },
+        "WESE431479_02": {
+          "BuoiID": "WESE431479_02",
+          "BuoiThu": "3",
+          "DaDangKi": "60",
+          "GiaoVien": " Lê Thị Minh Châu",
+          "HideID": "162WESE431479_02$3.00$162WESE431479$1$0",
+          "SiSo": "10-60",
+          "TietBatDau": "7",
+          "TietKetThuc": "10"
+        }
+      },
+      "WIPR240579": {
+        "WIPR240579_01": {
+          "BuoiID": "WIPR240579_01",
+          "BuoiThu": "3",
+          "DaDangKi": "71",
+          "GiaoVien": " Nguyễn Minh Đạo",
+          "HideID": "162WIPR240579_01$4.00$162WIPR240579$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        },
+        "WIPR240579_02": {
+          "BuoiID": "WIPR240579_02",
+          "BuoiThu": "5",
+          "DaDangKi": "70",
+          "GiaoVien": " Nguyễn Minh Đạo",
+          "HideID": "162WIPR240579_02$4.00$162WIPR240579$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "1",
+          "TietKetThuc": "5"
+        },
+        "WIPR240579_03": {
+          "BuoiID": "WIPR240579_03",
+          "BuoiThu": "7",
+          "DaDangKi": "70",
+          "GiaoVien": " Lê Văn Vinh",
+          "HideID": "162WIPR240579_03$4.00$162WIPR240579$1$0",
+          "SiSo": "10-70",
+          "TietBatDau": "7",
+          "TietKetThuc": "11"
+        }
+      }
+    }
+  },
+  "DanhSachMonHoc": {
+    "lmgPbT9QJCU=": {
+      "ADNT330580": {
+        "CurriculumID": "ADNT330580",
+        "StudyUnitID": "162ADNT330580",
+        "tenLop": "Mạng máy tính nâng cao",
+        "stc": "3"
+      },
+      "CAAL240180": {
+        "CurriculumID": "CAAL240180",
+        "StudyUnitID": "162CAAL240180",
+        "tenLop": "Kiến trúc máy tính và hợp ngữ",
+        "stc": "4"
+      },
+      "CLCO432779": {
+        "CurriculumID": "CLCO432779",
+        "StudyUnitID": "162CLCO432779",
+        "tenLop": "Điện toán đám mây",
+        "stc": "3"
+      },
+      "CNDE430780": {
+        "CurriculumID": "CNDE430780",
+        "StudyUnitID": "162CNDE430780",
+        "tenLop": "Thiết kế mạng",
+        "stc": "3"
+      },
+      "DAMI330484": {
+        "CurriculumID": "DAMI330484",
+        "StudyUnitID": "162DAMI330484",
+        "tenLop": "Khai phá dữ liệu",
+        "stc": "3"
+      },
+      "DASA240179": {
+        "CurriculumID": "DASA240179",
+        "StudyUnitID": "162DASA240179",
+        "tenLop": "Cấu trúc dữ liệu và giải thuật",
+        "stc": "4"
+      },
+      "DBMS340284": {
+        "CurriculumID": "DBMS340284",
+        "StudyUnitID": "162DBMS340284",
+        "tenLop": "Hệ quản trị cơ sở dữ liệu",
+        "stc": "4"
+      },
+      "DBSY240184": {
+        "CurriculumID": "DBSY240184",
+        "StudyUnitID": "162DBSY240184",
+        "tenLop": "Cơ sở dữ liệu",
+        "stc": "4"
+      },
+      "DCTE330480": {
+        "CurriculumID": "DCTE330480",
+        "StudyUnitID": "162DCTE330480",
+        "tenLop": "Kỹ thuật truyền số liệu (CTT)",
+        "stc": "3"
+      },
+      "DIDB330584": {
+        "CurriculumID": "DIDB330584",
+        "StudyUnitID": "162DIDB330584",
+        "tenLop": "Cơ sở dữ liệu phân tán",
+        "stc": "3"
+      },
+      "ECOM430984": {
+        "CurriculumID": "ECOM430984",
+        "StudyUnitID": "162ECOM430984",
+        "tenLop": "Thương mại điện tử",
+        "stc": "3"
+      },
+      "ENGL130137": {
+        "CurriculumID": "ENGL130137",
+        "StudyUnitID": "162ENGL130137",
+        "tenLop": "Anh Văn 1",
+        "stc": "3"
+      },
+      "ENGL230237": {
+        "CurriculumID": "ENGL230237",
+        "StudyUnitID": "162ENGL230237",
+        "tenLop": "Anh văn 2",
+        "stc": "3"
+      },
+      "ENGL330337": {
+        "CurriculumID": "ENGL330337",
+        "StudyUnitID": "162ENGL330337",
+        "tenLop": "Anh Văn 3",
+        "stc": "3"
+      },
+      "ESDN432079": {
+        "CurriculumID": "ESDN432079",
+        "StudyUnitID": "162ESDN432079",
+        "tenLop": "Thiết kế phần mềm giáo dục",
+        "stc": "3"
+      },
+      "ESYS431080": {
+        "CurriculumID": "ESYS431080",
+        "StudyUnitID": "162ESYS431080",
+        "tenLop": "Hệ thống nhúng",
+        "stc": "3"
+      },
+      "GEEC220105": {
+        "CurriculumID": "GEEC220105",
+        "StudyUnitID": "162GEEC220105",
+        "tenLop": "Kinh tế học đại cương (Ngành ngoài kinh tế)",
+        "stc": "2"
+      },
+      "GELA220405": {
+        "CurriculumID": "GELA220405",
+        "StudyUnitID": "162GELA220405",
+        "tenLop": "Pháp luật đại cương",
+        "stc": "2"
+      },
+      "INLO220405": {
+        "CurriculumID": "INLO220405",
+        "StudyUnitID": "162INLO220405",
+        "tenLop": "Nhập môn logic học",
+        "stc": "2"
+      },
+      "INMA220305": {
+        "CurriculumID": "INMA220305",
+        "StudyUnitID": "162INMA220305",
+        "tenLop": "Nhập môn quản trị học",
+        "stc": "2"
+      },
+      "INPR140285": {
+        "CurriculumID": "INPR140285",
+        "StudyUnitID": "162INPR140285",
+        "tenLop": "Nhập môn lập trình",
+        "stc": "4"
+      },
+      "INRE431084": {
+        "CurriculumID": "INRE431084",
+        "StudyUnitID": "162INRE431084",
+        "tenLop": "Truy tìm thông tin",
+        "stc": "3"
+      },
+      "INSE340379": {
+        "CurriculumID": "INSE340379",
+        "StudyUnitID": "162INSE340379",
+        "tenLop": "Bảo mật thông tin",
+        "stc": "4"
+      },
+      "INSO321005": {
+        "CurriculumID": "INSO321005",
+        "StudyUnitID": "162INSO321005",
+        "tenLop": "Nhập môn xã hội học",
+        "stc": "2"
+      },
+      "IQMA220205": {
+        "CurriculumID": "IQMA220205",
+        "StudyUnitID": "162IQMA220205",
+        "tenLop": "Nhập môn quản trị chất lượng",
+        "stc": "2"
+      },
+      "ISAD330384": {
+        "CurriculumID": "ISAD330384",
+        "StudyUnitID": "162ISAD330384",
+        "tenLop": "Phân tích và thiết kế hệ thống thông tin",
+        "stc": "3"
+      },
+      "ITPM430884": {
+        "CurriculumID": "ITPM430884",
+        "StudyUnitID": "162ITPM430884",
+        "tenLop": "Quản lý dự án CNTT",
+        "stc": "3"
+      },
+      "IVNC320905": {
+        "CurriculumID": "IVNC320905",
+        "StudyUnitID": "162IVNC320905",
+        "tenLop": "Cơ sở văn hóa Việt Nam",
+        "stc": "2"
+      },
+      "LLCT120314": {
+        "CurriculumID": "LLCT120314",
+        "StudyUnitID": "162LLCT120314",
+        "tenLop": "Tư tưởng Hồ Chí Minh",
+        "stc": "2"
+      },
+      "LLCT150105": {
+        "CurriculumID": "LLCT150105",
+        "StudyUnitID": "162LLCT150105",
+        "tenLop": "Những nguyên lý cơ bản CN Mác-Lênin",
+        "stc": "5"
+      },
+      "LLCT230214": {
+        "CurriculumID": "LLCT230214",
+        "StudyUnitID": "162LLCT230214",
+        "tenLop": "Đường lối CM của Đảng CSVN",
+        "stc": "3"
+      },
+      "MATH130401": {
+        "CurriculumID": "MATH130401",
+        "StudyUnitID": "162MATH130401",
+        "tenLop": "Xác suất Thống kê ứng dụng",
+        "stc": "3"
+      },
+      "MATH130701": {
+        "CurriculumID": "MATH130701",
+        "StudyUnitID": "162MATH130701",
+        "tenLop": "Giải tích 2",
+        "stc": "3"
+      },
+      "MATH141401": {
+        "CurriculumID": "MATH141401",
+        "StudyUnitID": "162MATH1414011",
+        "tenLop": "Đại số",
+        "stc": "4"
+      },
+      "MISY430684": {
+        "CurriculumID": "MISY430684",
+        "StudyUnitID": "162MISY430684",
+        "tenLop": "Hệ thống thông tin quản lý",
+        "stc": "3"
+      },
+      "MOPR331279": {
+        "CurriculumID": "MOPR331279",
+        "StudyUnitID": "162MOPR331279",
+        "tenLop": "Lập trình di động",
+        "stc": "3"
+      },
+      "NMSY331180": {
+        "CurriculumID": "NMSY331180",
+        "StudyUnitID": "162NMSY331180",
+        "tenLop": "Hệ thống giám sát mạng",
+        "stc": "3"
+      },
+      "OOSD330879": {
+        "CurriculumID": "OOSD330879",
+        "StudyUnitID": "162OOSD330879",
+        "tenLop": "Thiết kế phần mềm hướng đối tượng",
+        "stc": "3"
+      },
+      "OPSY340280": {
+        "CurriculumID": "OPSY340280",
+        "StudyUnitID": "162OPSY340280",
+        "tenLop": "Hệ điều hành",
+        "stc": "4"
+      },
+      "PHED110513": {
+        "CurriculumID": "PHED110513",
+        "StudyUnitID": "162PHED110513",
+        "tenLop": "Giáo dục thể chất 1",
+        "stc": "1"
+      },
+      "PHED110613": {
+        "CurriculumID": "PHED110613",
+        "StudyUnitID": "162PHED110613",
+        "tenLop": "Giáo dục thể chất 2",
+        "stc": "1"
+      },
+      "PHED130715": {
+        "CurriculumID": "PHED130715",
+        "StudyUnitID": "162PHED130715",
+        "tenLop": "Giáo dục thể chất 3 (Tự chọn)",
+        "stc": "3"
+      },
+      "PHYS110302": {
+        "CurriculumID": "PHYS110302",
+        "StudyUnitID": "162PHYS110302",
+        "tenLop": "Thí nghiệm vật lý đại cương",
+        "stc": "1"
+      },
+      "PHYS120202": {
+        "CurriculumID": "PHYS120202",
+        "StudyUnitID": "162PHYS120202",
+        "tenLop": "Vật lý đại cương 2",
+        "stc": "2"
+      },
+      "PHYS130102": {
+        "CurriculumID": "PHYS130102",
+        "StudyUnitID": "162PHYS130102",
+        "tenLop": "Vật lý đại cương 1",
+        "stc": "3"
+      },
+      "PLSK320605": {
+        "CurriculumID": "PLSK320605",
+        "StudyUnitID": "162PLSK320605",
+        "tenLop": "Kỹ năng xây dựng kế hoạch",
+        "stc": "2"
+      },
+      "PRBE214262": {
+        "CurriculumID": "PRBE214262",
+        "StudyUnitID": "162PRBE214262",
+        "tenLop": "Thực tập điện tử căn bản",
+        "stc": "1"
+      },
+      "PRSK320705": {
+        "CurriculumID": "PRSK320705",
+        "StudyUnitID": "162PRSK320705",
+        "tenLop": "Kỹ năng thuyết trình",
+        "stc": "2"
+      },
+      "PRTE240385": {
+        "CurriculumID": "PRTE240385",
+        "StudyUnitID": "162PRTE240385",
+        "tenLop": "Kỹ thuật lập trình",
+        "stc": "4"
+      },
+      "SOEN340679": {
+        "CurriculumID": "SOEN340679",
+        "StudyUnitID": "162SOEN340679",
+        "tenLop": "Công nghệ phần mềm",
+        "stc": "4"
+      },
+      "SYTH220505": {
+        "CurriculumID": "SYTH220505",
+        "StudyUnitID": "162SYTH220505",
+        "tenLop": "Tư duy hệ thống",
+        "stc": "2"
+      },
+      "TDTS320805": {
+        "CurriculumID": "TDTS320805",
+        "StudyUnitID": "162TDTS320805",
+        "tenLop": "Trình bày các văn bản và văn bản KHKT",
+        "stc": "2"
+      },
+      "ULTE121105": {
+        "CurriculumID": "ULTE121105",
+        "StudyUnitID": "162ULTE121105",
+        "tenLop": "Phương pháp học tập đại học",
+        "stc": "2"
+      },
+      "UNOS330680": {
+        "CurriculumID": "UNOS330680",
+        "StudyUnitID": "162UNOS330680",
+        "tenLop": "Hệ điều hành mạng Unix",
+        "stc": "3"
+      },
+      "WESE431479": {
+        "CurriculumID": "WESE431479",
+        "StudyUnitID": "162WESE431479",
+        "tenLop": "Bảo mật web",
+        "stc": "3"
+      },
+      "WIPR240579": {
+        "CurriculumID": "WIPR240579",
+        "StudyUnitID": "162WIPR240579",
+        "tenLop": "Lập trình trên Windows",
+        "stc": "4"
+      }
+    }
+  }
+}
